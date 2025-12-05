@@ -37,7 +37,7 @@ I am passionate about building **AI, ML, and data-driven solutions**, as well as
 
 **Database & Data Management:** SQL, MySQL, database design, query optimization  
 
-**Networking & IT:** CCNA, CCNP, Firewall Administration, Windows Server 2016  
+**Networking & IT:** CCNA, CCNP, Firewall Administration, Windows Server 2016  **Kali Linux**
 
 **Computer Systems & Hardware:** Computer architecture, system design, hardware management  
 
@@ -59,7 +59,7 @@ I am passionate about building **AI, ML, and data-driven solutions**, as well as
 
 ---
 
-## 📜 Certifications
+## 📜 Certifications **CARVIT Peshawar**
 
 - CCNA (Cisco Certified Network Associate)  
 - CCNP (Cisco Certified Network Professional)  
@@ -71,8 +71,10 @@ I am passionate about building **AI, ML, and data-driven solutions**, as well as
 ## 📬 Contact
 
 - 🌍 Portfolio / Projects: *(Coming Soon)*  
-- 💼 LinkedIn: *(Add your link)*  
-- 📧 Email: *ibrahimkhil975@gmail.com*  
+- 💼 LinkedIn: **  
+- 📧 Email: *ibrahimkhil975@gmail.com*
+- 📞 Phone: *93788770458*
+- 📱 WhatsApp: *93788770458*  
 
 ---
 
