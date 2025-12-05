@@ -1,5 +1,3 @@
-# About Me
-
 ## Hi, I’m Khairullah 👋
 
 I am from **Afghanistan** and currently pursuing a **Master’s in Data Science** at **IMSciences, Peshawar, Pakistan**.  
