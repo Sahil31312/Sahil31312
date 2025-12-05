@@ -1,7 +1,7 @@
 # Hi there 👋, I am Khairullah
 
 I am from **Afghanistan** and currently pursuing a **Master’s in Data Science** at **IMS Sciences, Peshawar, Pakistan**.  
-I hold a **Bachelor’s in Computer Science** and have expertise across **programming, AI, data science, networking, full-stack development, and computer systems**.  
+I hold a **Bachelor’s in Computer Science** at **IMS Sciences, Peshawar, Pakistan** and have expertise across **programming, AI, data science, networking, full-stack development, and computer systems**.  
 
 I am passionate about building **AI, ML, and data-driven solutions**, as well as **desktop and web applications**. I combine technical skills with project management experience to deliver practical, scalable solutions.
 
