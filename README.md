@@ -2,31 +2,11 @@
 
 ## Hi, I’m Khairullah 👋
 
-I am from **Afghanistan** and currently pursuing a **Master’s in Data Science** at **IMS Sciences, Peshawar, Pakistan**.  
-I hold a **Bachelor’s in Computer Science** and have expertise across **programming, AI, data science, networking, full-stack development, and computer systems**.
+I am from **Afghanistan** and currently pursuing a **Master’s in Data Science** at **IMSciences, Peshawar, Pakistan**.  
+I hold a **Bachelor’s in Computer Science** at **IMSciences, Peshawar, Pakistan** and have expertise across **programming, AI, data science, networking, full-stack development, and computer systems**.
 
 I am passionate about leveraging **AI, Machine Learning, Data Science, and Full-Stack Development** to solve practical, real-world problems. I combine strong technical expertise in **programming, networking, databases, hardware, and system design** with experience in **project management** to deliver efficient and scalable solutions.
-
-I have hands-on experience in:
-
-- **Machine Learning & AI:** Model training, IoT integration, predictive analysis, Pashto sentiment analysis, and data-driven solutions.  
-- **Programming:** Python, Java, C++, C, Assembly, PHP, JavaScript. Strong knowledge of Python libraries including **Pandas, Matplotlib, NumPy, Scikit-learn, Tkinter, PyQt**.  
-- **Web Development (Supplementary):** Laravel, Django, Bootstrap, jQuery, AJAX, HTML/CSS, responsive UI development.  
-- **Databases & Data Management:** SQL, MySQL, database design, query optimization, and data cleaning.  
-- **Networking & IT:** CCNA, CCNP, Firewall Administration, Windows Server 2016 administration.  
-- **Computer Systems & Hardware:** Strong understanding of computer architecture, system design, and hardware management.  
-- **Project Management:** Planning, execution, and management of technical projects.
-
-### Projects Highlights
-
-- **Drip Irrigation System (ML + IoT)** – Intelligent indoor plant irrigation system using multiple ML models  
-- **Pashto Sentiment Analysis** – ML models for analyzing Pashto text sentiment  
-- **Student Management System** – Desktop application using Python Tkinter  
-- **PyQt Python Projects** – Interactive desktop applications with PyQt  
-- **Tailor Shop Management System** – Web-based application for tailor shop operations  
-- **Restaurant Management System** – Web application for restaurant order and inventory management  
-
----
+ 
 
 ## 🛠️ Technical Skills
 
