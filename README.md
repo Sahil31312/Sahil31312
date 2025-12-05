@@ -59,7 +59,7 @@ I am passionate about building **AI, ML, and data-driven solutions**, as well as
 
 ---
 
-## 📜 Certifications **CARVIT Peshawar**
+## 📜 Certifications from *CARVIT Peshawar*
 
 - CCNA (Cisco Certified Network Associate)  
 - CCNP (Cisco Certified Network Professional)  
