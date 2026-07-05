@@ -1,64 +1,158 @@
-name: 🐍 Advanced Snake Animation Generator
+name: 🐍✨ Premium Snake Animation Generator
 
 on:
   schedule:
-    # Runs daily at midnight UTC
+    # 🌅 Morning refresh at sunrise (5 AM UTC)
+    - cron: "0 5 * * *"
+    # 🌇 Evening refresh at sunset (7 PM UTC)
+    - cron: "0 19 * * *"
+    # 🌙 Midnight maintenance
     - cron: "0 0 * * *"
-    # Runs at 12:00 UTC and 18:00 UTC for more frequent updates
-    - cron: "0 12,18 * * *"
   
   workflow_dispatch:
     inputs:
-      theme:
-        description: 'Animation theme'
-        required: false
-        default: 'github-dark'
+      theme_preset:
+        description: '🎨 Theme Preset'
+        required: true
+        default: 'cosmic'
         type: choice
         options:
-          - github-dark
-          - github-light
-          - github-dark-blue
-          - matrix
+          - cosmic
+          - aurora
           - neon
-  
+          - sunset
+          - ocean
+          - matrix
+          - candy
+          - galaxy
+      
+      snake_style:
+        description: '🐍 Snake Style'
+        required: true
+        default: 'gradient'
+        type: choice
+        options:
+          - gradient
+          - neon
+          - rainbow
+          - fire
+          - ice
+          - candy
+      
+      animation_speed:
+        description: '⚡ Animation Speed'
+        required: true
+        default: 'medium'
+        type: choice
+        options:
+          - slow
+          - medium
+          - fast
+          - lightning
+      
+      generate_gif:
+        description: '🎬 Generate GIF version'
+        required: false
+        default: true
+        type: boolean
+      
+      generate_webp:
+        description: '🖼️ Generate WebP version'
+        required: false
+        default: true
+        type: boolean
+
   push:
     branches: ["main", "master", "develop"]
   
-  # Run on repository star events
+  # ⭐ Trigger on repository stars
   watch:
     types: [started]
+  
+  # 🎯 Trigger on issues (for community engagement)
+  issues:
+    types: [opened, reopened]
 
 permissions:
   contents: write
   actions: read
   security-events: write
+  pages: write
+  id-token: write
 
 env:
   NODE_VERSION: '20'
   PNPM_VERSION: '8'
+  SNAKE_COLORS: '#00ff88,#00d4ff,#ff6b6b,#ffd93d,#6c5ce7,#00b894,#fd79a8,#fdcb6e'
 
 jobs:
-  generate-and-deploy:
+  🎨_generate_premium_snake:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     environment: production
     
     strategy:
       matrix:
-        # Generate multiple variants for different use cases
-        palette: 
-          - github-dark
-          - github-light
-          - github-dark-blue
+        theme: 
+          - name: 'Cosmic'
+            palette: 'github-dark'
+            bg: '#0a0a1a'
+            snake: '#00ff88'
+            dots: '#ff6b6b,#4ecdc4,#45b7d1,#96ceb4,#ffeaa7,#a29bfe,#fd79a8'
+            glow: '0 0 20px rgba(0,255,136,0.5)'
+          
+          - name: 'Aurora'
+            palette: 'github-dark'
+            bg: '#0a0e27'
+            snake: '#00d4ff'
+            dots: '#00ff88,#00d4ff,#ff6b6b,#ffd93d,#6c5ce7'
+            glow: '0 0 20px rgba(0,212,255,0.5)'
+          
+          - name: 'Sunset'
+            palette: 'github-light'
+            bg: '#1a0a0a'
+            snake: '#ff6b6b'
+            dots: '#ffd93d,#ff6b6b,#ee5a24,#ff9ff3,#f368e0'
+            glow: '0 0 20px rgba(255,107,107,0.5)'
+          
+          - name: 'Ocean'
+            palette: 'github-dark'
+            bg: '#0a0a1f'
+            snake: '#00b894'
+            dots: '#00d4ff,#00b894,#55efc4,#81ecec,#74b9ff'
+            glow: '0 0 20px rgba(0,184,148,0.5)'
+        
         include:
-          - palette: github-dark
-            output_name: github-contribution-grid-snake-dark
-          - palette: github-light
-            output_name: github-contribution-grid-snake-light
-          - palette: github-dark-blue
-            output_name: github-contribution-grid-snake-blue
+          - theme:
+              name: 'Cosmic'
+            output_suffix: 'cosmic'
+          - theme:
+              name: 'Aurora'
+            output_suffix: 'aurora'
+          - theme:
+              name: 'Sunset'
+            output_suffix: 'sunset'
+          - theme:
+              name: 'Ocean'
+            output_suffix: 'ocean'
     
     steps:
+      - name: 🚀 Launch workflow
+        run: |
+          echo "✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨"
+          echo "🐍 PREMIUM SNAKE ANIMATION GENERATOR"
+          echo "✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨"
+          echo "🎨 Theme: ${{ matrix.theme.name }}"
+          echo "🌈 Palette: ${{ matrix.theme.palette }}"
+          echo "🐍 Snake Color: ${{ matrix.theme.snake }}"
+          echo "✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨"
+
+      - name: 🏗️ Setup environment
+        run: |
+          echo "╔════════════════════════════════════════╗"
+          echo "║     🏗️  SETUP ENVIRONMENT             ║"
+          echo "╚════════════════════════════════════════╝"
+
       - name: 🚀 Checkout repository
         uses: actions/checkout@v4
         with:
@@ -89,135 +183,328 @@ jobs:
         id: snake-generator
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Multiple output formats with different styles
           outputs: |
-            dist/snake/${{ matrix.output_name }}.svg?palette=${{ matrix.palette }}&color_snake=#00ff88
-            dist/snake/${{ matrix.output_name }}-animated.svg?palette=${{ matrix.palette }}&color_snake=#00ff88&animation=true
-            dist/snake/${{ matrix.output_name }}-gif.gif?palette=${{ matrix.palette }}&color_snake=#00ff88
-            dist/snake/${{ matrix.output_name }}-webp.webp?palette=${{ matrix.palette }}&color_snake=#00ff88
-          
-          # Advanced options
-          color_snake: '#00ff88'
-          color_dots: '#ff6b6b,#4ecdc4,#45b7d1,#96ceb4,#ffeaa7'
-          color_cell: '#2d3436'
+            dist/✨/${{ matrix.output_suffix }}.svg?palette=${{ matrix.theme.palette }}&color_snake=${{ matrix.theme.snake }}&color_dots=${{ matrix.theme.dots }}&color_cell=${{ matrix.theme.bg }}
+            dist/✨/${{ matrix.output_suffix }}-animated.svg?palette=${{ matrix.theme.palette }}&color_snake=${{ matrix.theme.snake }}&color_dots=${{ matrix.theme.dots }}&color_cell=${{ matrix.theme.bg }}&animation=true
+            dist/✨/${{ matrix.output_suffix }}-premium.svg?palette=${{ matrix.theme.palette }}&color_snake=${{ matrix.theme.snake }}&color_dots=${{ matrix.theme.dots }}&color_cell=${{ matrix.theme.bg }}&animation=true&block_size=16&snake_size=24
+            
+          color_snake: ${{ matrix.theme.snake }}
+          color_dots: ${{ matrix.theme.dots }}
+          color_cell: ${{ matrix.theme.bg }}
           color_empty: '#1a1a2e'
-          animation_interval: 200
-          snake_size: 20
-          block_size: 12
+          animation_interval: 150
+          snake_size: 22
+          block_size: 14
+
+      - name: 🎨 Generate premium preview
+        run: |
+          mkdir -p dist/🎨
+          
+          cat > dist/🎨/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>🐍 Premium Snake Gallery</title>
+              <style>
+                  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap');
+                  
+                  * { margin: 0; padding: 0; box-sizing: border-box; }
+                  
+                  body {
+                      font-family: 'Poppins', sans-serif;
+                      background: linear-gradient(135deg, #0a0a1a 0%, #1a0a2e 25%, #0a1a2e 50%, #0a0a1a 100%);
+                      min-height: 100vh;
+                      padding: 2rem;
+                      position: relative;
+                      overflow-x: hidden;
+                  }
+                  
+                  body::before {
+                      content: '';
+                      position: fixed;
+                      top: 0;
+                      left: 0;
+                      right: 0;
+                      bottom: 0;
+                      background: 
+                          radial-gradient(circle at 20% 50%, rgba(0,255,136,0.03) 0%, transparent 50%),
+                          radial-gradient(circle at 80% 50%, rgba(0,212,255,0.03) 0%, transparent 50%);
+                      pointer-events: none;
+                      z-index: 0;
+                  }
+                  
+                  .stars {
+                      position: fixed;
+                      top: 0;
+                      left: 0;
+                      right: 0;
+                      bottom: 0;
+                      pointer-events: none;
+                      z-index: 0;
+                      background-image: 
+                          radial-gradient(2px 2px at 20px 30px, #eee, transparent),
+                          radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+                          radial-gradient(2px 2px at 50px 160px, #ddd, transparent),
+                          radial-gradient(2px 2px at 90px 40px, rgba(255,255,255,0.6), transparent),
+                          radial-gradient(2px 2px at 130px 80px, #fff, transparent),
+                          radial-gradient(2px 2px at 160px 30px, rgba(255,255,255,0.7), transparent);
+                      background-size: 200px 200px;
+                      background-repeat: repeat;
+                      opacity: 0.3;
+                      animation: twinkle 4s ease-in-out infinite alternate;
+                  }
+                  
+                  @keyframes twinkle {
+                      0% { opacity: 0.2; }
+                      100% { opacity: 0.5; }
+                  }
+                  
+                  .header {
+                      text-align: center;
+                      margin-bottom: 3rem;
+                      position: relative;
+                      z-index: 1;
+                  }
+                  
+                  .header h1 {
+                      font-family: 'Orbitron', monospace;
+                      font-size: 3.5rem;
+                      font-weight: 900;
+                      background: linear-gradient(135deg, #00ff88, #00d4ff, #ff6b6b, #ffd93d);
+                      background-size: 300% 300%;
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                      animation: gradientShift 4s ease-in-out infinite;
+                      text-shadow: 0 0 40px rgba(0,255,136,0.2);
+                      letter-spacing: 2px;
+                  }
+                  
+                  @keyframes gradientShift {
+                      0%, 100% { background-position: 0% 50%; }
+                      50% { background-position: 100% 50%; }
+                  }
+                  
+                  .header p {
+                      color: rgba(255,255,255,0.6);
+                      font-size: 1.1rem;
+                      margin-top: 0.5rem;
+                      letter-spacing: 4px;
+                  }
+                  
+                  .gallery {
+                      display: grid;
+                      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+                      gap: 2rem;
+                      max-width: 1400px;
+                      margin: 0 auto;
+                      position: relative;
+                      z-index: 1;
+                  }
+                  
+                  .card {
+                      background: rgba(255,255,255,0.03);
+                      backdrop-filter: blur(20px);
+                      border-radius: 24px;
+                      padding: 1.5rem;
+                      border: 1px solid rgba(255,255,255,0.05);
+                      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+                      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                      position: relative;
+                      overflow: hidden;
+                  }
+                  
+                  .card::before {
+                      content: '';
+                      position: absolute;
+                      top: -50%;
+                      left: -50%;
+                      width: 200%;
+                      height: 200%;
+                      background: radial-gradient(circle, rgba(0,255,136,0.05) 0%, transparent 70%);
+                      opacity: 0;
+                      transition: opacity 0.4s ease;
+                      pointer-events: none;
+                  }
+                  
+                  .card:hover::before {
+                      opacity: 1;
+                  }
+                  
+                  .card:hover {
+                      transform: translateY(-10px) scale(1.02);
+                      border-color: rgba(0,255,136,0.3);
+                      box-shadow: 0 30px 80px rgba(0,255,136,0.1);
+                  }
+                  
+                  .card-header {
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                      margin-bottom: 1rem;
+                      padding: 0 0.5rem;
+                  }
+                  
+                  .card-header h3 {
+                      color: #fff;
+                      font-size: 1.2rem;
+                      font-weight: 600;
+                      letter-spacing: 1px;
+                  }
+                  
+                  .badge {
+                      background: rgba(0,255,136,0.15);
+                      color: #00ff88;
+                      padding: 0.25rem 0.75rem;
+                      border-radius: 20px;
+                      font-size: 0.7rem;
+                      font-weight: 600;
+                      letter-spacing: 1px;
+                      border: 1px solid rgba(0,255,136,0.2);
+                  }
+                  
+                  .card-content {
+                      background: rgba(0,0,0,0.3);
+                      border-radius: 16px;
+                      padding: 1rem;
+                      position: relative;
+                  }
+                  
+                  .card-content svg,
+                  .card-content img {
+                      width: 100%;
+                      height: auto;
+                      border-radius: 12px;
+                      display: block;
+                  }
+                  
+                  .card-content .glow {
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      width: 80%;
+                      height: 80%;
+                      background: radial-gradient(circle, rgba(0,255,136,0.05) 0%, transparent 70%);
+                      pointer-events: none;
+                      filter: blur(20px);
+                  }
+                  
+                  .timestamp {
+                      text-align: center;
+                      color: rgba(255,255,255,0.3);
+                      font-size: 0.85rem;
+                      margin-top: 3rem;
+                      letter-spacing: 2px;
+                      position: relative;
+                      z-index: 1;
+                  }
+                  
+                  .timestamp span {
+                      color: rgba(0,255,136,0.5);
+                  }
+                  
+                  @media (max-width: 768px) {
+                      .header h1 { font-size: 2rem; }
+                      .gallery { grid-template-columns: 1fr; }
+                  }
+              </style>
+          </head>
+          <body>
+              <div class="stars"></div>
+              
+              <div class="header">
+                  <h1>🐍 PREMIUM GALLERY</h1>
+                  <p>✦ SNAKE ANIMATIONS ✦</p>
+              </div>
+              
+              <div class="gallery">
+                  <div class="card">
+                      <div class="card-header">
+                          <h3>🌌 Cosmic</h3>
+                          <span class="badge">PREMIUM</span>
+                      </div>
+                      <div class="card-content">
+                          <div class="glow"></div>
+                          <img src="../✨/cosmic-animated.svg" alt="Cosmic Snake">
+                      </div>
+                  </div>
+                  
+                  <div class="card">
+                      <div class="card-header">
+                          <h3>🌅 Aurora</h3>
+                          <span class="badge">PREMIUM</span>
+                      </div>
+                      <div class="card-content">
+                          <div class="glow"></div>
+                          <img src="../✨/aurora-animated.svg" alt="Aurora Snake">
+                      </div>
+                  </div>
+                  
+                  <div class="card">
+                      <div class="card-header">
+                          <h3>🌇 Sunset</h3>
+                          <span class="badge">PREMIUM</span>
+                      </div>
+                      <div class="card-content">
+                          <div class="glow"></div>
+                          <img src="../✨/sunset-animated.svg" alt="Sunset Snake">
+                      </div>
+                  </div>
+                  
+                  <div class="card">
+                      <div class="card-header">
+                          <h3>🌊 Ocean</h3>
+                          <span class="badge">PREMIUM</span>
+                      </div>
+                      <div class="card-content">
+                          <div class="glow"></div>
+                          <img src="../✨/ocean-animated.svg" alt="Ocean Snake">
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="timestamp">
+                  ✦ Last Updated: <span id="timestamp"></span> ✦
+              </div>
+              
+              <script>
+                  document.getElementById('timestamp').textContent = new Date().toLocaleString('en-US', {
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric',
+                      hour: '2-digit',
+                      minute: '2-digit',
+                      second: '2-digit',
+                      timeZone: 'UTC'
+                  });
+              </script>
+          </body>
+          </html>
+          EOF
 
       - name: 📊 Generate metadata
         id: metadata
         run: |
           echo "generated_at=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> $GITHUB_OUTPUT
           echo "commit_hash=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-          echo "commit_message=$(git log -1 --pretty=%B)" >> $GITHUB_OUTPUT
+          echo "theme_name=${{ matrix.theme.name }}" >> $GITHUB_OUTPUT
+          echo "snake_color=${{ matrix.theme.snake }}" >> $GITHUB_OUTPUT
 
-      - name: 📝 Create index file
+      - name: 📦 Compress premium artifacts
         run: |
-          cat > dist/index.html << 'EOF'
-          <!DOCTYPE html>
-          <html>
-          <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Snake Animation Gallery</title>
-            <style>
-              * { margin: 0; padding: 0; box-sizing: border-box; }
-              body { 
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-                background: #0a0a0a;
-                min-height: 100vh;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding: 2rem;
-              }
-              .gallery {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-                gap: 2rem;
-                max-width: 1200px;
-                width: 100%;
-              }
-              .card {
-                background: #1a1a2e;
-                border-radius: 12px;
-                padding: 1.5rem;
-                box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-              }
-              .card:hover {
-                transform: translateY(-5px);
-                box-shadow: 0 12px 48px rgba(0,255,136,0.1);
-              }
-              .card h3 {
-                color: #fff;
-                margin-bottom: 1rem;
-                text-align: center;
-              }
-              .card svg, .card img {
-                width: 100%;
-                height: auto;
-                border-radius: 8px;
-                background: #0a0a0a;
-              }
-              .timestamp {
-                color: #888;
-                margin-top: 2rem;
-                font-size: 0.9rem;
-              }
-            </style>
-          </head>
-          <body>
-            <h1 style="color: #fff; margin-bottom: 2rem;">🐍 Snake Animation Gallery</h1>
-            <div class="gallery">
-              <div class="card">
-                <h3>Dark Theme</h3>
-                <img src="snake/github-contribution-grid-snake-dark-animated.svg" alt="Dark Snake">
-              </div>
-              <div class="card">
-                <h3>Light Theme</h3>
-                <img src="snake/github-contribution-grid-snake-light-animated.svg" alt="Light Snake">
-              </div>
-              <div class="card">
-                <h3>Blue Theme</h3>
-                <img src="snake/github-contribution-grid-snake-blue-animated.svg" alt="Blue Snake">
-              </div>
-            </div>
-            <div class="timestamp">
-              Last updated: ${{ steps.metadata.outputs.generated_at }}<br>
-              Commit: ${{ steps.metadata.outputs.commit_hash }}
-            </div>
-          </body>
-          </html>
-          EOF
+          tar -czf premium-snake-${GITHUB_SHA::7}.tar.gz dist/
+          echo "📦 Archive size: $(du -h premium-snake-${GITHUB_SHA::7}.tar.gz | cut -f1)"
 
-      - name: 🔍 Validate generated files
-        run: |
-          if [ ! -d "dist/snake" ]; then
-            echo "❌ Snake directory not created"
-            exit 1
-          fi
-          file_count=$(find dist/snake -type f | wc -l)
-          echo "✅ Generated $file_count files"
-          if [ $file_count -lt 3 ]; then
-            echo "❌ Not enough files generated"
-            exit 1
-          fi
-
-      - name: 📦 Compress artifacts
-        run: |
-          tar -czf snake-artifacts.tar.gz dist/
-          echo "📦 Created archive: $(du -h snake-artifacts.tar.gz | cut -f1)"
-
-      - name: 📤 Upload artifacts
+      - name: 📤 Upload premium artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: snake-animations-${{ matrix.palette }}
+          name: 🌟-premium-snake-${{ matrix.output_suffix }}-${{ github.sha }}
           path: |
             dist/
-            snake-artifacts.tar.gz
-          retention-days: 30
+            *.tar.gz
+          retention-days: 90
           compression-level: 9
 
       - name: 🚀 Deploy to GitHub Pages
@@ -226,10 +513,14 @@ jobs:
           target_branch: output
           build_dir: dist
           commit_message: |
-            🐍 Update snake animations
-            - Generated: ${{ steps.metadata.outputs.generated_at }}
-            - Commit: ${{ steps.metadata.outputs.commit_hash }}
-            - Theme: ${{ matrix.palette }}
+            ✨🐍 Premium Snake Animation Update
+            ──────────────────────────────
+            🎨 Theme: ${{ matrix.theme.name }}
+            🌈 Palette: ${{ matrix.theme.palette }}
+            🐍 Snake Color: ${{ matrix.theme.snake }}
+            📅 Generated: ${{ steps.metadata.outputs.generated_at }}
+            🔗 Commit: ${{ steps.metadata.outputs.commit_hash }}
+            ✨ Quality: PREMIUM
           jekyll: false
           keep_history: true
           allow_empty_commit: false
@@ -237,40 +528,66 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🧹 Cleanup old artifacts
+      - name: ✅ Success report
         if: success()
         run: |
-          # Keep only last 5 versions of artifacts
-          echo "🧹 Cleaning up old artifacts..."
+          echo "╔═══════════════════════════════════════════════╗"
+          echo "║   ✨🐍 PREMIUM SNAKE GENERATED SUCCESSFULLY  ║"
+          echo "╚═══════════════════════════════════════════════╝"
+          echo ""
+          echo "📊 GENERATION STATS:"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🎨 Theme        : ${{ matrix.theme.name }}"
+          echo "🌈 Palette      : ${{ matrix.theme.palette }}"
+          echo "🐍 Snake Color  : ${{ matrix.theme.snake }}"
+          echo "📅 Generated at : ${{ steps.metadata.outputs.generated_at }}"
+          echo "🔗 Commit       : ${{ steps.metadata.outputs.commit_hash }}"
+          echo "📦 Files        : $(find dist -type f | wc -l)"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo ""
+          echo "🚀 Deployment: https://${{ github.repository_owner }}.github.io/${{ github.repository }}/"
 
-      - name: 📊 Send notification (success)
-        if: success()
-        run: |
-          echo "✅ Snake animation generated successfully!"
-          echo "📊 Stats:"
-          echo "  - Generated files: $(find dist -type f | wc -l)"
-          echo "  - Deployment: output branch updated"
-          echo "  - Time: ${{ steps.metadata.outputs.generated_at }}"
-
-      - name: 🚨 Send notification (failure)
-        if: failure()
-        run: |
-          echo "❌ Snake animation generation failed!"
-          echo "Please check the workflow logs for details."
-          exit 1
-
-      - name: 📋 Generate summary
+      - name: 📋 Generate beautiful summary
         if: always()
         run: |
-          cat >> $GITHUB_STEP_SUMMARY << EOF
-          ## 🐍 Snake Animation Generation
+          cat >> $GITHUB_STEP_SUMMARY << 'EOF'
+          ## ✨🐍 Premium Snake Generation Complete
           
-          **Status:** ${{ job.status }}
-          **Generated at:** ${{ steps.metadata.outputs.generated_at }}
-          **Theme:** ${{ matrix.palette }}
-          **Files generated:** $(find dist -type f | wc -l)
-          **Commit:** ${{ steps.metadata.outputs.commit_hash }}
+          | Property | Value |
+          |----------|-------|
+          | 🎨 Theme | **${{ matrix.theme.name }}** |
+          | 🌈 Palette | `${{ matrix.theme.palette }}` |
+          | 🐍 Snake Color | `${{ matrix.theme.snake }}` |
+          | 📅 Generated | `${{ steps.metadata.outputs.generated_at }}` |
+          | 🔗 Commit | `${{ steps.metadata.outputs.commit_hash }}` |
+          | 📦 Files | `$(find dist -type f | wc -l)` |
+          | ⚡ Status | ${{ job.status == 'success' && '✅ Success' : '❌ Failed' }} |
           
-          ### Files Created:
-          $(ls -la dist/snake/ | grep -v total | awk '{print "  - " $9 " (" $5 " bytes)"}')
+          ### 🎨 Preview Gallery
+          
+          ![Cosmic Snake](https://raw.githubusercontent.com/${{ github.repository }}/output/✨/cosmic-animated.svg)
+          
+          ---
+          
+          **🚀 View Deployment:** [GitHub Pages](https://${{ github.repository_owner }}.github.io/${{ github.repository }}/)
           EOF
+
+      - name: 🎯 Generate badge
+        if: success()
+        run: |
+          echo "![🐍 Premium Snake](https://img.shields.io/badge/🐍-Premium%20Snake-00ff88?style=for-the-badge&logo=github&logoColor=white)" >> $GITHUB_STEP_SUMMARY
+
+  🎉_community_notification:
+    needs: 🎨_generate_premium_snake
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🌟 Success celebration
+        if: needs.🎨_generate_premium_snake.result == 'success'
+        run: |
+          echo "🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉"
+          echo "✨ PREMIUM SNAKE ANIMATIONS UPDATED! ✨"
+          echo "🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉"
+          echo ""
+          echo "🌈 Check out the beautiful gallery:"
+          echo "https://${{ github.repository_owner }}.github.io/${{ github.repository }}/"
