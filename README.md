@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6,11,20&height=250&section=header&text=Khairullah&fontSize=80&fontColor=fff&animation=fadeIn&desc=Data%20Scientist%20%7C%20AI%20Engineer%20%7C%20DevOps%20Enthusiast&descSize=20&descAlignY=65" width="100%"/>
 
 <!-- ═══════════════ TYPING ANIMATION ═══════════════ -->
-<a href="#"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=60&lines=Master's+in+Data+Science+🎓;AI+%26+Machine+Learning+Engineer+🤖;Full-Stack+Developer+💻;DevOps+%26+Cloud+Engineer+☁️;CCNA+%7C+CCNP+Network+Professional+🌐;Turning+Coffee+into+Code+☕" alt="Typing Animation" /></a>
+<a href="#"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&repeat=true&width=700&height=60&lines=Master's+in+Data+Science+🎓;AI+%26+Machine+Learning+Engineer+🤖;Full-Stack+Developer+💻;DevOps+%26+Cloud+Learner+☁️;CCNA+%7C+CCNP+Network+Professional+🌐;Turning+Coffee+into+Code+☕" alt="Typing Animation" /></a>
 
 <!-- ═══════════════ ANIMATED LINE DIVIDER ═══════════════ -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -19,7 +19,7 @@
 
 </div>
 
-<!-- ═══════════════ ABOUT ME ═══════════════ -->
+<!-- ═══════════════ 1. ABOUT ME ═══════════════ -->
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> About Me
 
 <img align="right" alt="Coding Animation" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
@@ -47,22 +47,22 @@ motto: "Code. Deploy. Automate. Repeat. ♾️"
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-<!-- ═══════════════ TECH STACK WITH ANIMATED ICONS ═══════════════ -->
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> Tech Stack — Animated Icons
+<!-- ═══════════════ 2. TECH STACK ═══════════════ -->
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> Tech Stack — What I Work With
 
 ### 👨‍💻 Languages
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,java,cpp,c,php,js,html,css&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,java,cpp,c,php,js,html,css&theme=light" />
 </div>
 
 ### 🌐 Web Frameworks & Libraries
 <div align="center">
-<img src="https://skillicons.dev/icons?i=laravel,django,bootstrap,jquery,nodejs,react&theme=dark" />
+<img src="https://skillicons.dev/icons?i=laravel,django,bootstrap,jquery,nodejs,react&theme=light" />
 </div>
 
 ### 🤖 Data Science & AI
 <div align="center">
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,anaconda,opencv&theme=dark" />
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,anaconda,opencv&theme=light" />
 <br/>
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
@@ -70,14 +70,15 @@ motto: "Code. Deploy. Automate. Repeat. ♾️"
 <img src="https://img.shields.io/badge/IoT-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
 </div>
 
-### 🗄️ Databases & Tools
+### 🗄️ Databases & Desktop GUI
 <div align="center">
-<img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite,qt&theme=dark" />
+<img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite,qt&theme=light" />
+<img src="https://img.shields.io/badge/Tkinter-FF6F61?style=for-the-badge&logo=python&logoColor=white"/>
 </div>
 
 ### 🌐 Networking & Systems
 <div align="center">
-<img src="https://skillicons.dev/icons?i=linux,kali,ubuntu,debian,windows,bash,powershell&theme=dark" />
+<img src="https://skillicons.dev/icons?i=linux,kali,ubuntu,debian,windows,bash,powershell&theme=light" />
 <br/>
 <img src="https://img.shields.io/badge/CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white"/>
 <img src="https://img.shields.io/badge/CCNP-049FD9?style=for-the-badge&logo=cisco&logoColor=white"/>
@@ -89,135 +90,8 @@ motto: "Code. Deploy. Automate. Repeat. ♾️"
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-<!-- ═══════════════ DEVOPS ROADMAP ═══════════════ -->
-## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="35px"> Complete DevOps Roadmap
-
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=600&color=F75C7E&center=true&vCenter=true&width=650&lines=Plan+→+Code+→+Build+→+Test+→+Release;Deploy+→+Operate+→+Monitor+→+♾️;From+Git+Commit+to+Cloud+Deploy+🚀" alt="DevOps Cycle Animation" />
-
-<!-- DevOps Infinity Animation -->
-<img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="500" alt="DevOps Animation">
-
-</div>
-
-```mermaid
-%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#7B42BC','primaryTextColor':'#fff','lineColor':'#00D9FF'}}}%%
-graph LR
-    A[📝 Code] ==> B[🔀 Git/GitHub/GitLab]
-    B ==> C[⚙️ CI/CD Pipelines]
-    C ==> D[🐳 Docker]
-    D ==> E[☸️ Kubernetes]
-    E ==> F[🏗️ Terraform/Ansible]
-    F ==> G[📊 Monitoring]
-    G ==> H[☁️ Cloud AWS/Azure/GCP]
-    H ==> A
-    style A fill:#1f6feb,stroke:#fff,color:#fff
-    style B fill:#f05032,stroke:#fff,color:#fff
-    style C fill:#d24939,stroke:#fff,color:#fff
-    style D fill:#2496ed,stroke:#fff,color:#fff
-    style E fill:#326ce5,stroke:#fff,color:#fff
-    style F fill:#7b42bc,stroke:#fff,color:#fff
-    style G fill:#e6522c,stroke:#fff,color:#fff
-    style H fill:#ff9900,stroke:#fff,color:#fff
-```
-
-### 🔀 Stage 1 — Version Control & Collaboration ✅
-<div align="center">
-<img src="https://skillicons.dev/icons?i=git,github,gitlab,bitbucket&theme=dark" />
-</div>
-
-> 🎯 Branching & Merging • Pull/Merge Requests • Git Flow • Code Reviews • Repo Management
-
-### 🐧 Stage 2 — Linux & Scripting ✅
-<div align="center">
-<img src="https://skillicons.dev/icons?i=linux,ubuntu,kali,bash,vim,python&theme=dark" />
-</div>
-
-> 🎯 Shell Scripting • Permissions • Cron Jobs • Process Management • Networking Commands
-
-### ⚙️ Stage 3 — CI/CD Pipelines 🔄
-<div align="center">
-<img src="https://skillicons.dev/icons?i=githubactions,gitlab,jenkins&theme=dark" />
-</div>
-
-> 🎯 Automated Builds • Testing Automation • Continuous Deployment • Pipeline as Code • Artifacts
-
-### 🐳 Stage 4 — Containerization 🔄
-<div align="center">
-<img src="https://skillicons.dev/icons?i=docker&theme=dark" />
-<img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white"/>
-</div>
-
-> 🎯 Dockerfiles • Images & Layers • Multi-Stage Builds • Networks & Volumes • Registries
-
-### ☸️ Stage 5 — Container Orchestration 📚
-<div align="center">
-<img src="https://skillicons.dev/icons?i=kubernetes&theme=dark" />
-<img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white"/>
-<img src="https://img.shields.io/badge/K3s-FFC61C?style=for-the-badge&logo=k3s&logoColor=black"/>
-</div>
-
-> 🎯 Pods & Deployments • Services & Ingress • ConfigMaps & Secrets • Auto-Scaling • Helm Charts
-
-### 🏗️ Stage 6 — Infrastructure as Code 📚
-<div align="center">
-<img src="https://skillicons.dev/icons?i=terraform,ansible&theme=dark" />
-<img src="https://img.shields.io/badge/Vagrant-1868F2?style=for-the-badge&logo=vagrant&logoColor=white"/>
-</div>
-
-> 🎯 Terraform Modules & State • Ansible Playbooks & Roles • Provisioning • Config Management
-
-### 📊 Stage 7 — Monitoring & Observability 🎯
-<div align="center">
-<img src="https://skillicons.dev/icons?i=prometheus,grafana,elasticsearch&theme=dark" />
-</div>
-
-> 🎯 Metrics & Alerting • Dashboards • Log Aggregation (ELK) • Tracing • Incident Response
-
-### ☁️ Stage 8 — Cloud Platforms 🎯
-<div align="center">
-<img src="https://skillicons.dev/icons?i=aws,azure,gcp&theme=dark" />
-</div>
-
-> 🎯 EC2/VMs • S3/Blob Storage • VPC & Networking • IAM Security • Serverless Functions
-
-### 🔐 Stage 9 — DevSecOps & Security 🎯
-<div align="center">
-<img src="https://img.shields.io/badge/HashiCorp_Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black"/>
-<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white"/>
-<img src="https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aqua&logoColor=white"/>
-<img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white"/>
-</div>
-
-> 🎯 Secrets Management • Vulnerability Scanning • Firewall Admin 💪 • Network Security (CCNA/CCNP)
-
-<!-- ═══════════════ PROGRESS TRACKER ═══════════════ -->
-<div align="center">
-
-### 📊 Roadmap Progress Tracker
-
-| Stage | Technology | Status | Progress |
-|:---:|:---|:---:|:---|
-| 1️⃣ | Git • GitHub • GitLab | ✅ Completed | ![](https://geps.dev/progress/100) |
-| 2️⃣ | Linux & Scripting | ✅ Completed | ![](https://geps.dev/progress/100) |
-| 3️⃣ | CI/CD Pipelines | 🔄 In Progress | ![](https://geps.dev/progress/60) |
-| 4️⃣ | Docker & Containers | 🔄 In Progress | ![](https://geps.dev/progress/55) |
-| 5️⃣ | Kubernetes & Helm | 📚 Learning | ![](https://geps.dev/progress/30) |
-| 6️⃣ | Terraform & Ansible | 📚 Learning | ![](https://geps.dev/progress/25) |
-| 7️⃣ | Prometheus & Grafana | 🎯 Next Up | ![](https://geps.dev/progress/10) |
-| 8️⃣ | AWS • Azure • GCP | 🎯 Next Up | ![](https://geps.dev/progress/10) |
-| 9️⃣ | DevSecOps | 🎯 Next Up | ![](https://geps.dev/progress/15) |
-
-</div>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
-
-<!-- ═══════════════ PROJECTS ═══════════════ -->
-## <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="35px"> Key Projects
+<!-- ═══════════════ 3. PROJECTS (what I've BUILT) ═══════════════ -->
+## <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="35px"> Key Projects — What I've Built
 
 <table>
 <tr>
@@ -298,7 +172,134 @@ graph LR
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-<!-- ═══════════════ CERTIFICATIONS ═══════════════ -->
+<!-- ═══════════════ 4. DEVOPS LEARNING JOURNEY (what I'm LEARNING) ═══════════════ -->
+## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="35px"> My DevOps Learning Journey
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=600&color=F75C7E&center=true&vCenter=true&width=650&lines=Plan+→+Code+→+Build+→+Test+→+Release;Deploy+→+Operate+→+Monitor+→+♾️;From+Git+Commit+to+Cloud+Deploy+🚀" alt="DevOps Cycle Animation" />
+
+<img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="480" alt="DevOps Animation">
+
+### 📊 Progress at a Glance
+
+| # | Stage | Tools | Status | Progress |
+|:---:|:---|:---|:---:|:---|
+| 1️⃣ | Version Control | Git • GitHub • GitLab | ✅ Done | ![](https://geps.dev/progress/100) |
+| 2️⃣ | Linux & Scripting | Bash • Kali • Ubuntu | ✅ Done | ![](https://geps.dev/progress/100) |
+| 3️⃣ | CI/CD | Actions • GitLab CI • Jenkins | 🔄 Learning now | ![](https://geps.dev/progress/60) |
+| 4️⃣ | Containers | Docker • Compose | 🔄 Learning now | ![](https://geps.dev/progress/55) |
+| 5️⃣ | Orchestration | Kubernetes • Helm | 📚 Started | ![](https://geps.dev/progress/30) |
+| 6️⃣ | IaC | Terraform • Ansible | 📚 Started | ![](https://geps.dev/progress/25) |
+| 7️⃣ | Monitoring | Prometheus • Grafana | 🎯 Next | ![](https://geps.dev/progress/10) |
+| 8️⃣ | Cloud | AWS • Azure • GCP | 🎯 Next | ![](https://geps.dev/progress/10) |
+| 9️⃣ | DevSecOps | Vault • SonarQube | 🎯 Next | ![](https://geps.dev/progress/15) |
+
+</div>
+
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#7B42BC','primaryTextColor':'#fff','lineColor':'#00D9FF'}}}%%
+graph LR
+    A[📝 Code] ==> B[🔀 Git]
+    B ==> C[⚙️ CI/CD]
+    C ==> D[🐳 Docker]
+    D ==> E[☸️ Kubernetes]
+    E ==> F[🏗️ Terraform]
+    F ==> G[📊 Monitoring]
+    G ==> H[☁️ Cloud]
+    H ==> A
+    style A fill:#1f6feb,stroke:#fff,color:#fff
+    style B fill:#f05032,stroke:#fff,color:#fff
+    style C fill:#d24939,stroke:#fff,color:#fff
+    style D fill:#2496ed,stroke:#fff,color:#fff
+    style E fill:#326ce5,stroke:#fff,color:#fff
+    style F fill:#7b42bc,stroke:#fff,color:#fff
+    style G fill:#e6522c,stroke:#fff,color:#fff
+    style H fill:#ff9900,stroke:#fff,color:#fff
+```
+
+<details>
+<summary><b>🔽 Click to expand the full 9-stage roadmap with details</b></summary>
+<br/>
+
+### 🔀 Stage 1 — Version Control & Collaboration ✅
+<div align="center">
+<img src="https://skillicons.dev/icons?i=git,github,gitlab,bitbucket&theme=light" />
+</div>
+
+> 🎯 Branching & Merging • Pull/Merge Requests • Git Flow • Code Reviews • Repo Management
+
+### 🐧 Stage 2 — Linux & Scripting ✅
+<div align="center">
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,kali,bash,vim,python&theme=light" />
+</div>
+
+> 🎯 Shell Scripting • Permissions • Cron Jobs • Process Management • Networking Commands
+
+### ⚙️ Stage 3 — CI/CD Pipelines 🔄
+<div align="center">
+<img src="https://skillicons.dev/icons?i=githubactions,gitlab,jenkins&theme=light" />
+</div>
+
+> 🎯 Automated Builds • Testing Automation • Continuous Deployment • Pipeline as Code • Artifacts
+
+### 🐳 Stage 4 — Containerization 🔄
+<div align="center">
+<img src="https://skillicons.dev/icons?i=docker&theme=light" />
+<img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white"/>
+</div>
+
+> 🎯 Dockerfiles • Images & Layers • Multi-Stage Builds • Networks & Volumes • Registries
+
+### ☸️ Stage 5 — Container Orchestration 📚
+<div align="center">
+<img src="https://skillicons.dev/icons?i=kubernetes&theme=light" />
+<img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white"/>
+<img src="https://img.shields.io/badge/K3s-FFC61C?style=for-the-badge&logo=k3s&logoColor=black"/>
+</div>
+
+> 🎯 Pods & Deployments • Services & Ingress • ConfigMaps & Secrets • Auto-Scaling • Helm Charts
+
+### 🏗️ Stage 6 — Infrastructure as Code 📚
+<div align="center">
+<img src="https://skillicons.dev/icons?i=terraform,ansible&theme=light" />
+<img src="https://img.shields.io/badge/Vagrant-1868F2?style=for-the-badge&logo=vagrant&logoColor=white"/>
+</div>
+
+> 🎯 Terraform Modules & State • Ansible Playbooks & Roles • Provisioning • Config Management
+
+### 📊 Stage 7 — Monitoring & Observability 🎯
+<div align="center">
+<img src="https://skillicons.dev/icons?i=prometheus,grafana,elasticsearch&theme=light" />
+</div>
+
+> 🎯 Metrics & Alerting • Dashboards • Log Aggregation (ELK) • Tracing • Incident Response
+
+### ☁️ Stage 8 — Cloud Platforms 🎯
+<div align="center">
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp&theme=light" />
+</div>
+
+> 🎯 EC2/VMs • S3/Blob Storage • VPC & Networking • IAM Security • Serverless Functions
+
+### 🔐 Stage 9 — DevSecOps & Security 🎯
+<div align="center">
+<img src="https://img.shields.io/badge/HashiCorp_Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black"/>
+<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white"/>
+<img src="https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aqua&logoColor=white"/>
+<img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white"/>
+</div>
+
+> 🎯 Secrets Management • Vulnerability Scanning • Firewall Admin 💪 • Network Security (CCNA/CCNP)
+
+</details>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+<!-- ═══════════════ 5. CERTIFICATIONS ═══════════════ -->
 ## <img src="https://media.giphy.com/media/QLKI6WSuHBnLMLfhGN/giphy.gif" width="35px"> Certifications
 
 <div align="center">
@@ -316,7 +317,7 @@ graph LR
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-<!-- ═══════════════ GITHUB STATS ═══════════════ -->
+<!-- ═══════════════ 6. GITHUB STATS ═══════════════ -->
 ## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px"> GitHub Analytics
 
 <div align="center">
@@ -328,17 +329,15 @@ graph LR
 
 <br/><br/>
 
-<!-- Activity Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=F75C7E&point=FFFFFF" width="95%" alt="Activity Graph"/>
 
 <br/><br/>
 
-<!-- Trophies -->
 <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="95%" alt="GitHub Trophies"/>
 
 <br/><br/>
 
-<!-- ═══════════════ SNAKE ANIMATION ═══════════════ -->
+<!-- Snake Animation -->
 <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake Animation"/>
 
 </div>
@@ -347,7 +346,7 @@ graph LR
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-<!-- ═══════════════ CONTACT ═══════════════ -->
+<!-- ═══════════════ 7. CONTACT ═══════════════ -->
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35px"> Connect With Me
 
 <div align="center">
@@ -364,7 +363,6 @@ graph LR
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=00FF88&center=true&vCenter=true&width=600&lines=⭐+Star+my+repos+if+you+like+them!;🤝+Open+to+collaboration+%26+opportunities!;🚀+Let's+build+something+amazing+together!" alt="Footer Typing"/>
 
-<!-- ═══════════════ FOOTER WAVE ═══════════════ -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=twinkling" width="100%"/>
 
 </div>
