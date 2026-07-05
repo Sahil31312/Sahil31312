@@ -11,7 +11,7 @@
 
 <!-- ═══════════════ BADGES ROW ═══════════════ -->
 <p>
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
+<img src="https://komarev.com/ghpvc/?username=Sahil31312&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
 <img src="https://img.shields.io/badge/Focus-DevOps_&_AI-brightgreen?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Living-Peshawar,_PK-blue?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/From-Afghanistan_🇦🇫-red?style=for-the-badge"/>
@@ -22,24 +22,18 @@
 <!-- ═══════════════ 1. ABOUT ME ═══════════════ -->
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> About Me
 
-<img align="right" alt="Coding Animation" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
+<img align="right" alt="Coding Animation" width="360" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
-```yaml
-name: Khairullah
-from: Afghanistan 🇦🇫
-education:
-  masters: "Data Science @ IMSciences, Peshawar 🎓"
-  bachelors: "Computer Science @ IMSciences, Peshawar"
-current_focus:
-  - "🤖 Machine Learning + IoT Projects"
-  - "🚀 DevOps: Docker → K8s → Terraform"
-  - "☁️  Cloud Infrastructure & Automation"
-superpowers:
-  - "🗣️ Pashto NLP (low-resource language ML!)"
-  - "🌐 CCNA + CCNP Networking"
-  - "💻 Full-Stack: Laravel, Django, JS"
-motto: "Code. Deploy. Automate. Repeat. ♾️"
-```
+Hi, I'm **Khairullah** 👋 — from **Afghanistan** 🇦🇫, currently pursuing a **Master's in Data Science** at **IMSciences, Peshawar, Pakistan**. I hold a **Bachelor's in Computer Science** from the same institute.
+
+I am passionate about leveraging **AI, Machine Learning, Data Science, and Full-Stack Development** to solve practical, real-world problems. I combine strong technical expertise in **programming, networking, databases, hardware, and system design** with experience in **project management** to deliver efficient and scalable solutions.
+
+- 🔭 Currently working on **ML + IoT and Data Science projects**
+- 🌱 Learning **DevOps, Cloud & Infrastructure as Code**
+- 🗣️ Built ML models for **Pashto Sentiment Analysis** (low-resource language NLP!)
+- 🌐 Certified network professional — **CCNA & CCNP**
+- 💬 Ask me about **Python, ML, Networking, and Web Development**
+- 📫 Reach me at **ibrahimkhil975@gmail.com**
 
 <br clear="right"/>
 
@@ -198,24 +192,39 @@ motto: "Code. Deploy. Automate. Repeat. ♾️"
 </div>
 
 ```mermaid
-%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#7B42BC','primaryTextColor':'#fff','lineColor':'#00D9FF'}}}%%
-graph LR
-    A[📝 Code] ==> B[🔀 Git]
-    B ==> C[⚙️ CI/CD]
-    C ==> D[🐳 Docker]
-    D ==> E[☸️ Kubernetes]
-    E ==> F[🏗️ Terraform]
-    F ==> G[📊 Monitoring]
-    G ==> H[☁️ Cloud]
-    H ==> A
-    style A fill:#1f6feb,stroke:#fff,color:#fff
-    style B fill:#f05032,stroke:#fff,color:#fff
-    style C fill:#d24939,stroke:#fff,color:#fff
-    style D fill:#2496ed,stroke:#fff,color:#fff
-    style E fill:#326ce5,stroke:#fff,color:#fff
-    style F fill:#7b42bc,stroke:#fff,color:#fff
-    style G fill:#e6522c,stroke:#fff,color:#fff
-    style H fill:#ff9900,stroke:#fff,color:#fff
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#e6edf3','primaryBorderColor':'#00d9ff','lineColor':'#8b949e','fontSize':'15px','fontFamily':'Segoe UI, sans-serif'},'flowchart':{'curve':'basis','nodeSpacing':40,'rankSpacing':50}}}%%
+flowchart TB
+    subgraph F1["🟢 FOUNDATION — Completed"]
+        direction LR
+        A["Git · GitHub · GitLab"] --- B["Linux · Bash Scripting"]
+    end
+    subgraph F2["🔵 BUILD & SHIP — In Progress"]
+        direction LR
+        C["CI/CD Pipelines<br/>Actions · Jenkins"] --- D["Docker<br/>Containers"]
+    end
+    subgraph F3["🟣 SCALE & AUTOMATE — Learning"]
+        direction LR
+        E["Kubernetes<br/>Helm"] --- G["Terraform<br/>Ansible"]
+    end
+    subgraph F4["🟠 OPERATE — Next Up"]
+        direction LR
+        H["Prometheus<br/>Grafana"] --- I["AWS · Azure · GCP"] --- J["DevSecOps"]
+    end
+    F1 ==> F2 ==> F3 ==> F4
+
+    style F1 fill:#0d2818,stroke:#2ea043,stroke-width:2px,color:#e6edf3
+    style F2 fill:#0c2d48,stroke:#1f6feb,stroke-width:2px,color:#e6edf3
+    style F3 fill:#271052,stroke:#8957e5,stroke-width:2px,color:#e6edf3
+    style F4 fill:#341a00,stroke:#e3820e,stroke-width:2px,color:#e6edf3
+    style A fill:#161b22,stroke:#2ea043,color:#e6edf3
+    style B fill:#161b22,stroke:#2ea043,color:#e6edf3
+    style C fill:#161b22,stroke:#1f6feb,color:#e6edf3
+    style D fill:#161b22,stroke:#1f6feb,color:#e6edf3
+    style E fill:#161b22,stroke:#8957e5,color:#e6edf3
+    style G fill:#161b22,stroke:#8957e5,color:#e6edf3
+    style H fill:#161b22,stroke:#e3820e,color:#e6edf3
+    style I fill:#161b22,stroke:#e3820e,color:#e6edf3
+    style J fill:#161b22,stroke:#e3820e,color:#e6edf3
 ```
 
 <details>
@@ -322,23 +331,23 @@ graph LR
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0D1117" width="49%" alt="GitHub Streak"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Sahil31312&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117" width="49%" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Sahil31312&theme=tokyonight&hide_border=true&background=0D1117" width="49%" alt="GitHub Streak"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="40%" alt="Top Languages"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=F75C7E&point=FFFFFF" width="95%" alt="Activity Graph"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahil31312&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="40%" alt="Top Languages"/>
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="95%" alt="GitHub Trophies"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sahil31312&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=F75C7E&point=FFFFFF" width="95%" alt="Activity Graph"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Sahil31312&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="95%" alt="GitHub Trophies"/>
 
 <br/><br/>
 
 <!-- Snake Animation -->
-<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake Animation"/>
+<img src="https://raw.githubusercontent.com/Sahil31312/Sahil31312/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake Animation"/>
 
 </div>
 
