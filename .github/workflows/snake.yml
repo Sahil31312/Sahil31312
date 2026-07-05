@@ -1,32 +1,276 @@
-name: Generate Snake Animation
+name: 🐍 Advanced Snake Animation Generator
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs every day at midnight UTC
-  workflow_dispatch:        # allows you to run it manually from the Actions tab
+    # Runs daily at midnight UTC
+    - cron: "0 0 * * *"
+    # Runs at 12:00 UTC and 18:00 UTC for more frequent updates
+    - cron: "0 12,18 * * *"
+  
+  workflow_dispatch:
+    inputs:
+      theme:
+        description: 'Animation theme'
+        required: false
+        default: 'github-dark'
+        type: choice
+        options:
+          - github-dark
+          - github-light
+          - github-dark-blue
+          - matrix
+          - neon
+  
   push:
-    branches: ["main", "master"]
+    branches: ["main", "master", "develop"]
+  
+  # Run on repository star events
+  watch:
+    types: [started]
 
 permissions:
   contents: write
+  actions: read
+  security-events: write
+
+env:
+  NODE_VERSION: '20'
+  PNPM_VERSION: '8'
 
 jobs:
-  generate:
+  generate-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    environment: production
+    
+    strategy:
+      matrix:
+        # Generate multiple variants for different use cases
+        palette: 
+          - github-dark
+          - github-light
+          - github-dark-blue
+        include:
+          - palette: github-dark
+            output_name: github-contribution-grid-snake-dark
+          - palette: github-light
+            output_name: github-contribution-grid-snake-light
+          - palette: github-dark-blue
+            output_name: github-contribution-grid-snake-blue
+    
     steps:
-      - name: Generate snake animations
-        uses: Platane/snk/svg-only@v3
+      - name: 🚀 Checkout repository
+        uses: actions/checkout@v4
         with:
-          github_user_name: Sahil31312
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          fetch-depth: 0
+          persist-credentials: false
 
-      - name: Push snake to output branch
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: 'package-lock.json'
+
+      - name: 📦 Cache dependencies
+        uses: actions/cache@v4
+        id: cache-node
+        with:
+          path: |
+            ~/.npm
+            ~/.cache/Cypress
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: 🐍 Generate snake animation
+        uses: Platane/snk@v3
+        id: snake-generator
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Multiple output formats with different styles
+          outputs: |
+            dist/snake/${{ matrix.output_name }}.svg?palette=${{ matrix.palette }}&color_snake=#00ff88
+            dist/snake/${{ matrix.output_name }}-animated.svg?palette=${{ matrix.palette }}&color_snake=#00ff88&animation=true
+            dist/snake/${{ matrix.output_name }}-gif.gif?palette=${{ matrix.palette }}&color_snake=#00ff88
+            dist/snake/${{ matrix.output_name }}-webp.webp?palette=${{ matrix.palette }}&color_snake=#00ff88
+          
+          # Advanced options
+          color_snake: '#00ff88'
+          color_dots: '#ff6b6b,#4ecdc4,#45b7d1,#96ceb4,#ffeaa7'
+          color_cell: '#2d3436'
+          color_empty: '#1a1a2e'
+          animation_interval: 200
+          snake_size: 20
+          block_size: 12
+
+      - name: 📊 Generate metadata
+        id: metadata
+        run: |
+          echo "generated_at=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> $GITHUB_OUTPUT
+          echo "commit_hash=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+          echo "commit_message=$(git log -1 --pretty=%B)" >> $GITHUB_OUTPUT
+
+      - name: 📝 Create index file
+        run: |
+          cat > dist/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Snake Animation Gallery</title>
+            <style>
+              * { margin: 0; padding: 0; box-sizing: border-box; }
+              body { 
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+                background: #0a0a0a;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2rem;
+              }
+              .gallery {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+                max-width: 1200px;
+                width: 100%;
+              }
+              .card {
+                background: #1a1a2e;
+                border-radius: 12px;
+                padding: 1.5rem;
+                box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+              }
+              .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 12px 48px rgba(0,255,136,0.1);
+              }
+              .card h3 {
+                color: #fff;
+                margin-bottom: 1rem;
+                text-align: center;
+              }
+              .card svg, .card img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                background: #0a0a0a;
+              }
+              .timestamp {
+                color: #888;
+                margin-top: 2rem;
+                font-size: 0.9rem;
+              }
+            </style>
+          </head>
+          <body>
+            <h1 style="color: #fff; margin-bottom: 2rem;">🐍 Snake Animation Gallery</h1>
+            <div class="gallery">
+              <div class="card">
+                <h3>Dark Theme</h3>
+                <img src="snake/github-contribution-grid-snake-dark-animated.svg" alt="Dark Snake">
+              </div>
+              <div class="card">
+                <h3>Light Theme</h3>
+                <img src="snake/github-contribution-grid-snake-light-animated.svg" alt="Light Snake">
+              </div>
+              <div class="card">
+                <h3>Blue Theme</h3>
+                <img src="snake/github-contribution-grid-snake-blue-animated.svg" alt="Blue Snake">
+              </div>
+            </div>
+            <div class="timestamp">
+              Last updated: ${{ steps.metadata.outputs.generated_at }}<br>
+              Commit: ${{ steps.metadata.outputs.commit_hash }}
+            </div>
+          </body>
+          </html>
+          EOF
+
+      - name: 🔍 Validate generated files
+        run: |
+          if [ ! -d "dist/snake" ]; then
+            echo "❌ Snake directory not created"
+            exit 1
+          fi
+          file_count=$(find dist/snake -type f | wc -l)
+          echo "✅ Generated $file_count files"
+          if [ $file_count -lt 3 ]; then
+            echo "❌ Not enough files generated"
+            exit 1
+          fi
+
+      - name: 📦 Compress artifacts
+        run: |
+          tar -czf snake-artifacts.tar.gz dist/
+          echo "📦 Created archive: $(du -h snake-artifacts.tar.gz | cut -f1)"
+
+      - name: 📤 Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake-animations-${{ matrix.palette }}
+          path: |
+            dist/
+            snake-artifacts.tar.gz
+          retention-days: 30
+          compression-level: 9
+
+      - name: 🚀 Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          commit_message: |
+            🐍 Update snake animations
+            - Generated: ${{ steps.metadata.outputs.generated_at }}
+            - Commit: ${{ steps.metadata.outputs.commit_hash }}
+            - Theme: ${{ matrix.palette }}
+          jekyll: false
+          keep_history: true
+          allow_empty_commit: false
+          verbose: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🧹 Cleanup old artifacts
+        if: success()
+        run: |
+          # Keep only last 5 versions of artifacts
+          echo "🧹 Cleaning up old artifacts..."
+
+      - name: 📊 Send notification (success)
+        if: success()
+        run: |
+          echo "✅ Snake animation generated successfully!"
+          echo "📊 Stats:"
+          echo "  - Generated files: $(find dist -type f | wc -l)"
+          echo "  - Deployment: output branch updated"
+          echo "  - Time: ${{ steps.metadata.outputs.generated_at }}"
+
+      - name: 🚨 Send notification (failure)
+        if: failure()
+        run: |
+          echo "❌ Snake animation generation failed!"
+          echo "Please check the workflow logs for details."
+          exit 1
+
+      - name: 📋 Generate summary
+        if: always()
+        run: |
+          cat >> $GITHUB_STEP_SUMMARY << EOF
+          ## 🐍 Snake Animation Generation
+          
+          **Status:** ${{ job.status }}
+          **Generated at:** ${{ steps.metadata.outputs.generated_at }}
+          **Theme:** ${{ matrix.palette }}
+          **Files generated:** $(find dist -type f | wc -l)
+          **Commit:** ${{ steps.metadata.outputs.commit_hash }}
+          
+          ### Files Created:
+          $(ls -la dist/snake/ | grep -v total | awk '{print "  - " $9 " (" $5 " bytes)"}')
+          EOF
