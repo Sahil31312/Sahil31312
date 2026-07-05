@@ -1,362 +1,370 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Khairullah&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Data%20Scientist%20%7C%20AI%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20DevOps%20Enthusiast&descAlignY=55&descSize=18" width="100%"/>
+<!-- ═══════════════ ANIMATED HEADER ═══════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6,11,20&height=250&section=header&text=Khairullah&fontSize=80&fontColor=fff&animation=fadeIn&desc=Data%20Scientist%20%7C%20AI%20Engineer%20%7C%20DevOps%20Enthusiast&descSize=20&descAlignY=65" width="100%"/>
 
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Master's+in+Data+Science+🎓;AI+%26+Machine+Learning+Engineer+🤖;Full-Stack+Developer+💻;DevOps+%26+Cloud+Learner+☁️;Network+Professional+(CCNA+%7C+CCNP)+🌐" alt="Typing SVG" />
+<!-- ═══════════════ TYPING ANIMATION ═══════════════ -->
+<a href="#"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=60&lines=Master's+in+Data+Science+🎓;AI+%26+Machine+Learning+Engineer+🤖;Full-Stack+Developer+💻;DevOps+%26+Cloud+Engineer+☁️;CCNA+%7C+CCNP+Network+Professional+🌐;Turning+Coffee+into+Code+☕" alt="Typing Animation" /></a>
 
-<br/>
+<!-- ═══════════════ ANIMATED LINE DIVIDER ═══════════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- Profile Views & Social Badges -->
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
+<!-- ═══════════════ BADGES ROW ═══════════════ -->
+<p>
+<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
+<img src="https://img.shields.io/badge/Focus-DevOps_&_AI-brightgreen?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Living-Peshawar,_PK-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/From-Afghanistan_🇦🇫-red?style=for-the-badge"/>
+</p>
 
 </div>
 
----
+<!-- ═══════════════ ABOUT ME ═══════════════ -->
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> About Me
 
-## 👨‍💻 About Me
+<img align="right" alt="Coding Animation" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
 ```yaml
 name: Khairullah
 from: Afghanistan 🇦🇫
 education:
-  - degree: Master's in Data Science
-    university: IMSciences, Peshawar, Pakistan 🎓
-  - degree: Bachelor's in Computer Science
-    university: IMSciences, Peshawar, Pakistan
-passion:
-  - Artificial Intelligence & Machine Learning
-  - Data Science & Analytics
-  - Full-Stack Web Development
-  - DevOps & Cloud Engineering
-  - Networking & System Administration
-mission: "Leveraging AI, ML, Data Science & DevOps to solve real-world problems 🚀"
+  masters: "Data Science @ IMSciences, Peshawar 🎓"
+  bachelors: "Computer Science @ IMSciences, Peshawar"
+current_focus:
+  - "🤖 Machine Learning + IoT Projects"
+  - "🚀 DevOps: Docker → K8s → Terraform"
+  - "☁️  Cloud Infrastructure & Automation"
+superpowers:
+  - "🗣️ Pashto NLP (low-resource language ML!)"
+  - "🌐 CCNA + CCNP Networking"
+  - "💻 Full-Stack: Laravel, Django, JS"
+motto: "Code. Deploy. Automate. Repeat. ♾️"
 ```
-
-<img align="right" alt="Coding GIF" width="380" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
-
-- 🔭 Currently working on **ML + IoT & Data Science projects**
-- 🌱 Learning **DevOps, Cloud & Infrastructure as Code**
-- 💬 Ask me about **Python, ML, Networking, Web Dev**
-- ⚡ Fun fact: I speak **Pashto** and built a **Pashto Sentiment Analysis** model!
-- 📫 Reach me at: **ibrahimkhil975@gmail.com**
 
 <br clear="right"/>
 
----
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
 
-## 🛠️ Tech Stack & Skills
+<!-- ═══════════════ TECH STACK WITH ANIMATED ICONS ═══════════════ -->
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> Tech Stack — Animated Icons
 
-### 👨‍💻 Programming Languages
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
-<img src="https://img.shields.io/badge/Assembly-9E7E38?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-</p>
+### 👨‍💻 Languages
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,java,cpp,c,php,js,html,css&theme=dark" />
+</div>
 
-### 🌐 Web Development & Frameworks
-<p>
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/>
-<img src="https://img.shields.io/badge/AJAX-005571?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-</p>
+### 🌐 Web Frameworks & Libraries
+<div align="center">
+<img src="https://skillicons.dev/icons?i=laravel,django,bootstrap,jquery,nodejs,react&theme=dark" />
+</div>
 
 ### 🤖 Data Science & AI
-<p>
+<div align="center">
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,anaconda,opencv&theme=dark" />
+<br/>
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white"/>
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
 <img src="https://img.shields.io/badge/IoT-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
-</p>
+</div>
 
-### 🖥️ Desktop & GUI Development
-<p>
-<img src="https://img.shields.io/badge/PyQt-41CD52?style=for-the-badge&logo=qt&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tkinter-FF6F61?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
+### 🗄️ Databases & Tools
+<div align="center">
+<img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite,qt&theme=dark" />
+</div>
 
-### 🗄️ Databases
-<p>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
-<img src="https://img.shields.io/badge/Database_Design-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
-</p>
-
-### 🌐 Networking & IT
-<p>
+### 🌐 Networking & Systems
+<div align="center">
+<img src="https://skillicons.dev/icons?i=linux,kali,ubuntu,debian,windows,bash,powershell&theme=dark" />
+<br/>
 <img src="https://img.shields.io/badge/CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white"/>
 <img src="https://img.shields.io/badge/CCNP-049FD9?style=for-the-badge&logo=cisco&logoColor=white"/>
 <img src="https://img.shields.io/badge/Firewall_Admin-EE0000?style=for-the-badge&logo=redhat&logoColor=white"/>
 <img src="https://img.shields.io/badge/Windows_Server_2016-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/>
-</p>
+</div>
 
----
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
 
-## 🚀 Complete DevOps Roadmap
+<!-- ═══════════════ DEVOPS ROADMAP ═══════════════ -->
+## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="35px"> Complete DevOps Roadmap
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/🎯_MY_DEVOPS_JOURNEY-From_Code_to_Cloud-blueviolet?style=for-the-badge" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=600&color=F75C7E&center=true&vCenter=true&width=650&lines=Plan+→+Code+→+Build+→+Test+→+Release;Deploy+→+Operate+→+Monitor+→+♾️;From+Git+Commit+to+Cloud+Deploy+🚀" alt="DevOps Cycle Animation" />
+
+<!-- DevOps Infinity Animation -->
+<img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="500" alt="DevOps Animation">
 
 </div>
 
 ```mermaid
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#7B42BC','primaryTextColor':'#fff','lineColor':'#00D9FF'}}}%%
 graph LR
-    A[📝 Code] --> B[🔀 Version Control]
-    B --> C[⚙️ CI/CD]
-    C --> D[📦 Containers]
-    D --> E[☸️ Orchestration]
-    E --> F[🏗️ IaC]
-    F --> G[📊 Monitoring]
-    G --> H[☁️ Cloud]
+    A[📝 Code] ==> B[🔀 Git/GitHub/GitLab]
+    B ==> C[⚙️ CI/CD Pipelines]
+    C ==> D[🐳 Docker]
+    D ==> E[☸️ Kubernetes]
+    E ==> F[🏗️ Terraform/Ansible]
+    F ==> G[📊 Monitoring]
+    G ==> H[☁️ Cloud AWS/Azure/GCP]
+    H ==> A
+    style A fill:#1f6feb,stroke:#fff,color:#fff
+    style B fill:#f05032,stroke:#fff,color:#fff
+    style C fill:#d24939,stroke:#fff,color:#fff
+    style D fill:#2496ed,stroke:#fff,color:#fff
+    style E fill:#326ce5,stroke:#fff,color:#fff
+    style F fill:#7b42bc,stroke:#fff,color:#fff
+    style G fill:#e6522c,stroke:#fff,color:#fff
+    style H fill:#ff9900,stroke:#fff,color:#fff
 ```
 
-### 🔀 Stage 1 — Version Control & Collaboration
-<p>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white"/>
-</p>
+### 🔀 Stage 1 — Version Control & Collaboration ✅
+<div align="center">
+<img src="https://skillicons.dev/icons?i=git,github,gitlab,bitbucket&theme=dark" />
+</div>
 
-> ✅ Branching & Merging • ✅ Pull/Merge Requests • ✅ Git Flow • ✅ Code Reviews • ✅ GitHub/GitLab Repos Management
+> 🎯 Branching & Merging • Pull/Merge Requests • Git Flow • Code Reviews • Repo Management
 
-### 🐧 Stage 2 — Linux & Scripting
-<p>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/>
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python_Scripting-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
+### 🐧 Stage 2 — Linux & Scripting ✅
+<div align="center">
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,kali,bash,vim,python&theme=dark" />
+</div>
 
-> ✅ Shell Scripting • ✅ File Systems & Permissions • ✅ Process Management • ✅ Networking Commands • ✅ Automation Scripts
+> 🎯 Shell Scripting • Permissions • Cron Jobs • Process Management • Networking Commands
 
-### ⚙️ Stage 3 — CI/CD Pipelines
-<p>
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitLab_CI/CD-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
-<img src="https://img.shields.io/badge/CircleCI-343434?style=for-the-badge&logo=circleci&logoColor=white"/>
-</p>
+### ⚙️ Stage 3 — CI/CD Pipelines 🔄
+<div align="center">
+<img src="https://skillicons.dev/icons?i=githubactions,gitlab,jenkins&theme=dark" />
+</div>
 
-> ✅ Automated Builds • ✅ Automated Testing • ✅ Continuous Deployment • ✅ Pipeline as Code • ✅ Artifact Management
+> 🎯 Automated Builds • Testing Automation • Continuous Deployment • Pipeline as Code • Artifacts
 
-### 📦 Stage 4 — Containerization
-<p>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+### 🐳 Stage 4 — Containerization 🔄
+<div align="center">
+<img src="https://skillicons.dev/icons?i=docker&theme=dark" />
 <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white"/>
-</p>
+</div>
 
-> ✅ Dockerfiles • ✅ Images & Containers • ✅ Multi-Container Apps • ✅ Docker Networks & Volumes • ✅ Container Registries
+> 🎯 Dockerfiles • Images & Layers • Multi-Stage Builds • Networks & Volumes • Registries
 
-### ☸️ Stage 5 — Container Orchestration
-<p>
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+### ☸️ Stage 5 — Container Orchestration 📚
+<div align="center">
+<img src="https://skillicons.dev/icons?i=kubernetes&theme=dark" />
 <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker_Swarm-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-</p>
+<img src="https://img.shields.io/badge/K3s-FFC61C?style=for-the-badge&logo=k3s&logoColor=black"/>
+</div>
 
-> ✅ Pods, Deployments & Services • ✅ ConfigMaps & Secrets • ✅ Scaling & Load Balancing • ✅ Helm Charts • ✅ K8s Networking
+> 🎯 Pods & Deployments • Services & Ingress • ConfigMaps & Secrets • Auto-Scaling • Helm Charts
 
-### 🏗️ Stage 6 — Infrastructure as Code (IaC)
-<p>
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"/>
-<img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white"/>
+### 🏗️ Stage 6 — Infrastructure as Code 📚
+<div align="center">
+<img src="https://skillicons.dev/icons?i=terraform,ansible&theme=dark" />
 <img src="https://img.shields.io/badge/Vagrant-1868F2?style=for-the-badge&logo=vagrant&logoColor=white"/>
-</p>
+</div>
 
-> ✅ Terraform Providers & Modules • ✅ State Management • ✅ Ansible Playbooks & Roles • ✅ Configuration Management • ✅ Provisioning Automation
+> 🎯 Terraform Modules & State • Ansible Playbooks & Roles • Provisioning • Config Management
 
-### 📊 Stage 7 — Monitoring & Observability
-<p>
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
-<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
-<img src="https://img.shields.io/badge/ELK_Stack-005571?style=for-the-badge&logo=elastic&logoColor=white"/>
-</p>
+### 📊 Stage 7 — Monitoring & Observability 🎯
+<div align="center">
+<img src="https://skillicons.dev/icons?i=prometheus,grafana,elasticsearch&theme=dark" />
+</div>
 
-> ✅ Metrics & Alerts • ✅ Dashboards • ✅ Log Aggregation • ✅ Performance Monitoring • ✅ Incident Response
+> 🎯 Metrics & Alerting • Dashboards • Log Aggregation (ELK) • Tracing • Incident Response
 
-### ☁️ Stage 8 — Cloud Platforms
-<p>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
-<img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
-</p>
+### ☁️ Stage 8 — Cloud Platforms 🎯
+<div align="center">
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp&theme=dark" />
+</div>
 
-> ✅ EC2 / VMs • ✅ S3 / Blob Storage • ✅ VPC & Cloud Networking • ✅ IAM & Security • ✅ Serverless (Lambda / Functions)
+> 🎯 EC2/VMs • S3/Blob Storage • VPC & Networking • IAM Security • Serverless Functions
 
-### 🔐 Stage 9 — DevSecOps & Security
-<p>
-<img src="https://img.shields.io/badge/DevSecOps-DD0031?style=for-the-badge&logo=security&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black"/>
+### 🔐 Stage 9 — DevSecOps & Security 🎯
+<div align="center">
+<img src="https://img.shields.io/badge/HashiCorp_Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black"/>
 <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white"/>
-</p>
+<img src="https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aqua&logoColor=white"/>
+<img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white"/>
+</div>
 
-> ✅ Secrets Management • ✅ Security Scanning • ✅ Firewall Administration • ✅ Network Security (CCNA/CCNP background 💪)
+> 🎯 Secrets Management • Vulnerability Scanning • Firewall Admin 💪 • Network Security (CCNA/CCNP)
 
+<!-- ═══════════════ PROGRESS TRACKER ═══════════════ -->
 <div align="center">
 
-| 🎯 Roadmap Progress | Status |
-|---|---|
-| 🔀 Git / GitHub / GitLab | ✅ **Completed** |
-| 🐧 Linux & Scripting | ✅ **Completed** |
-| ⚙️ CI/CD (Actions, GitLab CI, Jenkins) | 🔄 **In Progress** |
-| 📦 Docker & Containers | 🔄 **In Progress** |
-| ☸️ Kubernetes | 📚 **Learning** |
-| 🏗️ Terraform & Ansible | 📚 **Learning** |
-| 📊 Prometheus & Grafana | 🎯 **Next Up** |
-| ☁️ AWS / Azure / GCP | 🎯 **Next Up** |
+### 📊 Roadmap Progress Tracker
+
+| Stage | Technology | Status | Progress |
+|:---:|:---|:---:|:---|
+| 1️⃣ | Git • GitHub • GitLab | ✅ Completed | ![](https://geps.dev/progress/100) |
+| 2️⃣ | Linux & Scripting | ✅ Completed | ![](https://geps.dev/progress/100) |
+| 3️⃣ | CI/CD Pipelines | 🔄 In Progress | ![](https://geps.dev/progress/60) |
+| 4️⃣ | Docker & Containers | 🔄 In Progress | ![](https://geps.dev/progress/55) |
+| 5️⃣ | Kubernetes & Helm | 📚 Learning | ![](https://geps.dev/progress/30) |
+| 6️⃣ | Terraform & Ansible | 📚 Learning | ![](https://geps.dev/progress/25) |
+| 7️⃣ | Prometheus & Grafana | 🎯 Next Up | ![](https://geps.dev/progress/10) |
+| 8️⃣ | AWS • Azure • GCP | 🎯 Next Up | ![](https://geps.dev/progress/10) |
+| 9️⃣ | DevSecOps | 🎯 Next Up | ![](https://geps.dev/progress/15) |
 
 </div>
 
----
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
 
-## 💡 Key Projects
+<!-- ═══════════════ PROJECTS ═══════════════ -->
+## <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="35px"> Key Projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🌱 Drip Irrigation System (ML + IoT)
-Intelligent indoor plant irrigation system using multiple ML models integrated with IoT sensors for smart automation.
+> Intelligent indoor plant irrigation using multiple ML models + IoT sensors for smart automation.
 
-`Python` `Machine Learning` `IoT` `Sensors`
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/ML-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/IoT-00979D?style=flat-square&logo=arduino&logoColor=white"/>
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 💬 Pashto Sentiment Analysis
-ML models for analyzing sentiment in Pashto text — a low-resource language NLP challenge.
+> NLP for a low-resource language — ML models analyzing Pashto text sentiment.
 
-`Python` `NLP` `Scikit-learn` `Data Cleaning`
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/NLP-8A2BE2?style=flat-square"/> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🎓 Student Management System
-Full-featured desktop application for managing student records.
+> Full-featured desktop app for managing student records.
 
-`Python` `Tkinter` `MySQL`
+<img src="https://img.shields.io/badge/Tkinter-FF6F61?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🖥️ PyQt Desktop Applications
-Collection of interactive, modern desktop applications.
+> Collection of interactive, modern desktop applications.
 
-`Python` `PyQt` `GUI Design`
+<img src="https://img.shields.io/badge/PyQt-41CD52?style=flat-square&logo=qt&logoColor=white"/> <img src="https://img.shields.io/badge/GUI-2C2255?style=flat-square"/>
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### ✂️ Tailor Shop Management System
-Web-based application streamlining tailor shop operations, orders & billing.
+> Web app streamlining tailor shop operations, orders & billing.
 
-`PHP` `Laravel` `MySQL` `Bootstrap`
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white"/>
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🍽️ Restaurant Management System
-Web application for restaurant orders, menu & inventory management.
+> Web app for restaurant orders, menu & inventory management.
 
-`PHP` `JavaScript` `jQuery` `AJAX`
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white"/> <img src="https://img.shields.io/badge/AJAX-005571?style=flat-square"/>
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🤖 Machine Learning Models
-Predictive analysis, classification & optimization tasks across multiple domains.
+> Predictive analysis, classification & optimization across domains.
 
-`Scikit-learn` `Pandas` `NumPy`
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 📊 Data Analysis & Visualization
-Exploratory data analysis and rich visualizations for insight generation.
+> EDA and rich visualizations for insight generation.
 
-`Pandas` `Matplotlib` `NumPy`
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white"/> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
 
 </td>
 </tr>
 </table>
 
----
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
 
-## 📜 Certifications
+<!-- ═══════════════ CERTIFICATIONS ═══════════════ -->
+## <img src="https://media.giphy.com/media/QLKI6WSuHBnLMLfhGN/giphy.gif" width="35px"> Certifications
 
 <div align="center">
 
-| 🏅 Certification | 🏢 Institute |
-|---|---|
-| 🌐 **CCNA** — Cisco Certified Network Associate | CARVIT, Peshawar |
-| 🌐 **CCNP** — Cisco Certified Network Professional | CARVIT, Peshawar |
-| 🔥 **Firewall Administration** | CARVIT, Peshawar |
-| 🖥️ **Windows Server 2016 Administration** | CARVIT, Peshawar |
+| 🏅 | Certification | Institute |
+|:---:|:---|:---|
+| 🌐 | **CCNA** — Cisco Certified Network Associate | CARVIT, Peshawar |
+| 🌐 | **CCNP** — Cisco Certified Network Professional | CARVIT, Peshawar |
+| 🔥 | **Firewall Administration** | CARVIT, Peshawar |
+| 🖥️ | **Windows Server 2016 Administration** | CARVIT, Peshawar |
 
 </div>
 
----
-
-## 📈 GitHub Stats
-
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" width="49%" alt="GitHub Streak"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" width="40%" alt="Top Languages"/>
-
-<!-- Contribution Snake Animation (optional - requires setup) -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true" width="90%" alt="Activity Graph"/>
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
----
-
-## 📬 Connect With Me
+<!-- ═══════════════ GITHUB STATS ═══════════════ -->
+## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px"> GitHub Analytics
 
 <div align="center">
 
-<a href="mailto:ibrahimkhil975@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://wa.me/93788770458">
-<img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-</a>
-<a href="#">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="tel:+93788770458">
-<img src="https://img.shields.io/badge/Phone-4285F4?style=for-the-badge&logo=googlevoice&logoColor=white"/>
-</a>
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117" width="49%" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0D1117" width="49%" alt="GitHub Streak"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="40%" alt="Top Languages"/>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Thanks+for+visiting!+⭐;Let's+build+something+amazing+together!+🚀" alt="Footer Typing"/>
+<!-- Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=F75C7E&point=FFFFFF" width="95%" alt="Activity Graph"/>
 
-<!-- Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+<br/><br/>
+
+<!-- Trophies -->
+<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="95%" alt="GitHub Trophies"/>
+
+<br/><br/>
+
+<!-- ═══════════════ SNAKE ANIMATION ═══════════════ -->
+<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake Animation"/>
+
+</div>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+<!-- ═══════════════ CONTACT ═══════════════ -->
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35px"> Connect With Me
+
+<div align="center">
+
+<a href="mailto:ibrahimkhil975@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+&nbsp;
+<a href="https://wa.me/93788770458"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+&nbsp;
+<a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+&nbsp;
+<a href="tel:+93788770458"><img src="https://img.shields.io/badge/Call_Me-4285F4?style=for-the-badge&logo=googlevoice&logoColor=white"/></a>
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=00FF88&center=true&vCenter=true&width=600&lines=⭐+Star+my+repos+if+you+like+them!;🤝+Open+to+collaboration+%26+opportunities!;🚀+Let's+build+something+amazing+together!" alt="Footer Typing"/>
+
+<!-- ═══════════════ FOOTER WAVE ═══════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=twinkling" width="100%"/>
 
 </div>
