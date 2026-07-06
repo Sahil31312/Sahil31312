@@ -1,3 +1,4 @@
+ html
 <div align="center">
 
 <!-- ═══════════════ ANIMATED HEADER ═══════════════ -->
@@ -15,6 +16,8 @@
 <img src="https://img.shields.io/badge/Focus-DevOps_&_AI-brightgreen?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Living-Peshawar,_PK-blue?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/From-Afghanistan_🇦🇫-red?style=for-the-badge"/>
+<img src="https://img.shields.io/github/followers/Sahil31312?style=for-the-badge&color=purple&label=Followers"/>
+<img src="https://img.shields.io/github/stars/Sahil31312?style=for-the-badge&color=yellow&label=Total%20Stars"/>
 </p>
 
 </div>
@@ -332,7 +335,7 @@ flowchart TB
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Sahil31312&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Sahil31312&theme=tokyonight&hide_border=true&background=0D1117" width="49%" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Sahil31312&theme=tokyonight&hide_border=true&background=0D1117&hide_current_streak=false" width="49%" alt="GitHub Streak"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahil31312&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="40%" alt="Top Languages"/>
 
@@ -342,12 +345,17 @@ flowchart TB
 
 <br/><br/>
 
+<!-- ✅ FIXED: Trophy with darkhub theme -->
 <img src="https://github-profile-trophy.vercel.app/?username=Sahil31312&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7" width="95%" alt="GitHub Trophies"/>
 
 <br/><br/>
 
-<!-- Snake Animation -->
-<img src="https://raw.githubusercontent.com/Sahil31312/Sahil31312/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake Animation"/>
+<!-- ✅ FIXED: Snake animation with picture element for dark/light mode -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sahil31312/Sahil31312/output/snake/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sahil31312/Sahil31312/output/snake/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/Sahil31312/Sahil31312/output/snake/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake Animation"/>
+</picture>
 
 </div>
 
@@ -367,6 +375,13 @@ flowchart TB
 <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 &nbsp;
 <a href="tel:+93788770458"><img src="https://img.shields.io/badge/Call_Me-4285F4?style=for-the-badge&logo=googlevoice&logoColor=white"/></a>
+&nbsp;
+<a href="https://github.com/Sahil31312"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+
+<br/><br/>
+
+<!-- ✅ NEW: Social activity badge -->
+<img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=GitHub%20Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FSahil31312%2FSahil31312&color=yellow"/>
 
 <br/><br/>
 
@@ -375,3 +390,4 @@ flowchart TB
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=twinkling" width="100%"/>
 
 </div>
+ 
