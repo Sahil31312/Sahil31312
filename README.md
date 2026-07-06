@@ -342,7 +342,23 @@ flowchart TB
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Sahil31312&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="95%" alt="GitHub Trophies"/>
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Sahil31312&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117" width="49%" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Sahil31312&theme=tokyonight&hide_border=true&background=0D1117" width="49%" alt="GitHub Streak"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahil31312&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="40%" alt="Top Languages"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sahil31312&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=F75C7E&point=FFFFFF" width="95%" alt="Activity Graph"/>
+
+<br/><br/>
+
+<!-- ✅ FIXED: Changed theme from tokyonight to darkhub -->
+<img src="https://github-profile-trophy.vercel.app/?username=Sahil31312&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7" width="95%" alt="GitHub Trophies"/>
+
+<br/><br/>
 
 <br/><br/>
 
