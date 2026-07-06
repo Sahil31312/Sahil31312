@@ -374,21 +374,58 @@ flowchart TB
 </div>
 
 <!-- ═══════════════ 7. CONTACT ═══════════════ -->
+<!-- ═══════════════ 7. CONTACT ═══════════════ -->
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35px"> Connect With Me
 
 <div align="center">
 
-<a href="mailto:ibrahimkhil975@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<!-- Professional Social Links -->
+<a href="https://www.linkedin.com/in/khairullah-ibrahimkhail-581030202">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 &nbsp;
-<a href="https://wa.me/93788770458"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+
+<a href="https://sahil-ali.xo.je/?i=1">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
 &nbsp;
-<a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+
+<a href="mailto:ibrahimkhil975@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 &nbsp;
-<a href="tel:+93788770458"><img src="https://img.shields.io/badge/Call_Me-4285F4?style=for-the-badge&logo=googlevoice&logoColor=white"/></a>
+
+<a href="https://wa.me/93788770458">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>
+&nbsp;
+
+<a href="https://github.com/Sahil31312">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+&nbsp;
+
+<a href="tel:+93788770458">
+  <img src="https://img.shields.io/badge/Call_Me-4285F4?style=for-the-badge&logo=googlevoice&logoColor=white"/>
+</a>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=00FF88&center=true&vCenter=true&width=600&lines=⭐+Star+my+repos+if+you+like+them!;🤝+Open+to+collaboration+%26+opportunities!;🚀+Let's+build+something+amazing+together!" alt="Footer Typing"/>
+<!-- Professional Footer -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=00FF88&center=true&vCenter=true&width=600&lines=📫+Reach+out+for+collaboration!;💬+Let's+connect+and+build+together!;🌟+Open+to+opportunities+%26+ideas!" alt="Footer Typing"/>
+
+<br/>
+
+📧 **ibrahimkhil975@gmail.com** &nbsp;|&nbsp; 📱 **+93 788 770 458** &nbsp;|&nbsp; 📍 **Peshawar, Pakistan**
+
+<br/><br/>
+
+<!-- Portfolio Link Button -->
+<a href="https://sahil-ali.xo.je/?i=1">
+  <img src="https://img.shields.io/badge/🌐-Visit_My_Portfolio-00D9FF?style=for-the-badge"/>
+</a>
+
+<br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=twinkling" width="100%"/>
 
