@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ═══════════════ ANIMATED HEADER ═══════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6,11,20&height=250&section=header&text=Khairullah&fontSize=80&fontColor=fff&animation=fadeIn&desc=Data%20Scientist%20%7C%20AI%20Engineer%20%7C%20DevOps%20Enthusiast&descSize=20&descAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20&height=300&section=header&text=Khairullah%20Ibrahim%20Khail&fontSize=65&fontColor=fff&animation=twinkling&desc=⚡%20Data%20Scientist%20%7C%20AI%20Engineer%20%7C%20DevOps%20Enthusiast%20⚡&descSize=22&descAlignY=78&rotate=0&speed=8&scale=1.5&stroke=00FF88&strokeWidth=2" width="100%"/>
 
 <!-- ═══════════════ TYPING ANIMATION ═══════════════ -->
 <a href="#"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&repeat=true&width=700&height=60&lines=Master's+in+Data+Science+🎓;AI+%26+Machine+Learning+Engineer+🤖;Full-Stack+Developer+💻;DevOps+%26+Cloud+Learner+☁️;CCNA+%7C+CCNP+Network+Professional+🌐;Turning+Coffee+into+Code+☕" alt="Typing Animation" /></a>
@@ -24,7 +24,7 @@
 
 <img align="right" alt="Coding Animation" width="360" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
-Hi, I'm **Khairullah** 👋 — from **Afghanistan** 🇦🇫, currently pursuing a **Master's in Data Science** at **IMSciences, Peshawar, Pakistan**. I hold a **Bachelor's in Computer Science** from the same institute.
+Hi, I'm **** 👋 — from **Afghanistan** 🇦🇫, currently pursuing a **Master's in Data Science** at **IMSciences, Peshawar, Pakistan**. I hold a **Bachelor's in Computer Science** from the same institute.
 
 I am passionate about leveraging **AI, Machine Learning, Data Science, and Full-Stack Development** to solve practical, real-world problems. I combine strong technical expertise in **programming, networking, databases, hardware, and system design** with experience in **project management** to deliver efficient and scalable solutions.
 
@@ -416,7 +416,7 @@ flowchart TB
 
 <br/>
 
-📧 **ibrahimkhil975@gmail.com** &nbsp;|&nbsp; 📱 **+93 788 770 458** &nbsp;|&nbsp; 📍 **Peshawar, Pakistan**
+📧 **ibrahimkhil975@gmail.com** &nbsp;|&nbsp; 📱 **+93 788 770 458** &nbsp;|&nbsp; 📍 **Kabul, Afghanistan**
 
 <br/><br/>
 
