@@ -326,25 +326,43 @@ flowchart TB
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
+ 
+
 <!-- ═══════════════ 6. GITHUB STATS ═══════════════ -->
 ## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px"> GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sahil31312&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Sahil31312&theme=tokyonight&hide_border=true&background=0D1117" width="49%" alt="GitHub Streak"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahil31312&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="40%" alt="Top Languages"/>
+<!-- GitHub Stats Cards (Always works - uses different service) -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sahil31312&theme=github_dark" width="95%" alt="GitHub Profile Details"/>
 
 <br/><br/>
 
+<!-- Stats Cards Row -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sahil31312&theme=github_dark" width="32%" alt="Stats"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Sahil31312&theme=github_dark&utcOffset=5" width="32%" alt="Productive Time"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sahil31312&theme=github_dark" width="32%" alt="Top Languages"/>
+
+<br/><br/>
+
+<!-- GitHub Streak (Alternative service) -->
+<img src="https://streak-stats.demolab.com?user=Sahil31312&theme=dark&hide_border=true&background=0D1117&fire=00D9FF&ring=00D9FF&currStreakLabel=00D9FF" width="49%" alt="GitHub Streak"/>
+
+<br/><br/>
+
+<!-- Activity Graph (Alternative) -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sahil31312&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=F75C7E&point=FFFFFF" width="95%" alt="Activity Graph"/>
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Sahil31312&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="95%" alt="GitHub Trophies"/>
-
+<!-- Achievement Badges Row -->
+<!-- Try different mirrors -->
+<!-- Metrics with achievements plugin -->
+<img src="https://metrics.lecoq.io/Sahil31312?template=classic&base.indepth=false&base.hireable=false&achievements=true&achievements.threshold=C&achievements.ignored=publicity%2Csponsorship&achievements.limit=0" width="95%" alt="GitHub Achievements"/>
 <br/><br/>
+
+
+
 
 <!-- Snake Animation -->
 <img src="https://raw.githubusercontent.com/Sahil31312/Sahil31312/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake Animation"/>
