@@ -329,12 +329,12 @@ flowchart TB
  
 
 <!-- ═══════════════ 6. GITHUB STATS ═══════════════ -->
-## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px"> GitHub Analytics
+## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="40px"> GitHub Analytics
 
 <div align="center">
 
 <!-- GitHub Stats Cards (Always works - uses different service) -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sahil31312&theme=github_dark" width="95%" alt="GitHub Profile Details"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sahil31312&theme=github_dark" width="100%" alt="GitHub Profile Details"/>
 
 <br/><br/>
 
@@ -355,8 +355,7 @@ flowchart TB
 
 <br/><br/>
 
-<!-- Achievement Badges Row -->
-<!-- Try different mirrors -->
+
 <!-- Metrics with achievements plugin -->
 <img src="https://metrics.lecoq.io/Sahil31312?template=classic&base.indepth=false&base.hireable=false&achievements=true&achievements.threshold=C&achievements.ignored=publicity%2Csponsorship&achievements.limit=0" width="95%" alt="GitHub Achievements"/>
 <br/><br/>
