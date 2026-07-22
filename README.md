@@ -24,12 +24,12 @@
 
 <img align="right" alt="Coding Animation" width="360" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
-Hi, I'm **** 👋 — from **Afghanistan** 🇦🇫, currently pursuing a **Master's in Data Science** at **IMSciences, Peshawar, Pakistan**. I hold a **Bachelor's in Computer Science** from the same institute.
+Hi, I'm **Khairullah Ibrahim Khail** 👋 — from **Afghanistan** 🇦🇫, currently pursuing a **Master's in Data Science** at **IMSciences, Peshawar, Pakistan**. I hold a **Bachelor's in Computer Science** from the same institute.
 
 I am passionate about leveraging **AI, Machine Learning, Data Science, and Full-Stack Development** to solve practical, real-world problems. I combine strong technical expertise in **programming, networking, databases, hardware, and system design** with experience in **project management** to deliver efficient and scalable solutions.
 
 - 🔭 Currently working on **ML + IoT and Data Science projects**
-- 🌱 Learning **DevOps, Cloud & Infrastructure as Code**
+- ☁️ Currently diving deep into **AWS Cloud** — after completing **Git, GitHub, GitLab & Docker**
 - 🗣️ Built ML models for **Pashto Sentiment Analysis** (low-resource language NLP!)
 - 🌐 Certified network professional — **CCNA & CCNP**
 - 💬 Ask me about **Python, ML, Networking, and Web Development**
@@ -62,6 +62,15 @@ I am passionate about leveraging **AI, Machine Learning, Data Science, and Full-
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white"/>
 <img src="https://img.shields.io/badge/IoT-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
+</div>
+
+### 🚀 DevOps & Cloud
+<div align="center">
+<img src="https://skillicons.dev/icons?i=git,github,gitlab,docker,aws&theme=light" />
+<br/>
+<img src="https://img.shields.io/badge/Git_✔-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker_✔-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS_(learning)-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
 </div>
 
 ### 🗄️ Databases & Desktop GUI
@@ -171,7 +180,7 @@ I am passionate about leveraging **AI, Machine Learning, Data Science, and Full-
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=600&color=F75C7E&center=true&vCenter=true&width=650&lines=Plan+→+Code+→+Build+→+Test+→+Release;Deploy+→+Operate+→+Monitor+→+♾️;From+Git+Commit+to+Cloud+Deploy+🚀" alt="DevOps Cycle Animation" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=600&color=F75C7E&center=true&vCenter=true&width=650&lines=Git+✔+GitHub+✔+GitLab+✔+Docker+✔;Now+Conquering:+AWS+Cloud+☁️;From+Git+Commit+to+Cloud+Deploy+🚀" alt="DevOps Cycle Animation" />
 
 <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="480" alt="DevOps Animation">
 
@@ -179,52 +188,53 @@ I am passionate about leveraging **AI, Machine Learning, Data Science, and Full-
 
 | # | Stage | Tools | Status | Progress |
 |:---:|:---|:---|:---:|:---|
-| 1️⃣ | Version Control | Git • GitHub • GitLab | ✅ Done | ![](https://geps.dev/progress/100) |
-| 2️⃣ | Linux & Scripting | Bash • Kali • Ubuntu | ✅ Done | ![](https://geps.dev/progress/100) |
-| 3️⃣ | CI/CD | Actions • GitLab CI • Jenkins | 🔄 Learning now | ![](https://geps.dev/progress/60) |
-| 4️⃣ | Containers | Docker • Compose | 🔄 Learning now | ![](https://geps.dev/progress/55) |
-| 5️⃣ | Orchestration | Kubernetes • Helm | 📚 Started | ![](https://geps.dev/progress/30) |
-| 6️⃣ | IaC | Terraform • Ansible | 📚 Started | ![](https://geps.dev/progress/25) |
-| 7️⃣ | Monitoring | Prometheus • Grafana | 🎯 Next | ![](https://geps.dev/progress/10) |
-| 8️⃣ | Cloud | AWS • Azure • GCP | 🎯 Next | ![](https://geps.dev/progress/10) |
-| 9️⃣ | DevSecOps | Vault • SonarQube | 🎯 Next | ![](https://geps.dev/progress/15) |
+| 1️⃣ | Version Control | Git • GitHub • GitLab | ✅ Completed | ![](https://geps.dev/progress/100) |
+| 2️⃣ | Linux & Scripting | Bash • Kali • Ubuntu | ✅ Completed | ![](https://geps.dev/progress/100) |
+| 3️⃣ | Containers | Docker • Compose | ✅ Completed | ![](https://geps.dev/progress/100) |
+| 4️⃣ | Cloud ☁️ | **AWS** (EC2 • S3 • IAM • VPC) | 🔥 Learning NOW | ![](https://geps.dev/progress/40) |
+| 5️⃣ | CI/CD | Actions • GitLab CI • Jenkins | 🎯 Up Next | ![](https://geps.dev/progress/20) |
+| 6️⃣ | Orchestration | Kubernetes • Helm | 📚 Planned | ![](https://geps.dev/progress/10) |
+| 7️⃣ | IaC | Terraform • Ansible | 📚 Planned | ![](https://geps.dev/progress/10) |
+| 8️⃣ | Monitoring | Prometheus • Grafana | 📚 Planned | ![](https://geps.dev/progress/5) |
+| 9️⃣ | DevSecOps | Vault • SonarQube | 📚 Planned | ![](https://geps.dev/progress/5) |
 
 </div>
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#e6edf3','primaryBorderColor':'#00d9ff','lineColor':'#8b949e','fontSize':'15px','fontFamily':'Segoe UI, sans-serif'},'flowchart':{'curve':'basis','nodeSpacing':40,'rankSpacing':50}}}%%
 flowchart TB
-    subgraph F1["🟢 FOUNDATION — Completed"]
+    subgraph F1["✅ COMPLETED"]
         direction LR
-        A["Git · GitHub · GitLab"] --- B["Linux · Bash Scripting"]
+        A["Git · GitHub · GitLab"] --- B["Linux · Bash"] --- C["🐳 Docker"]
     end
-    subgraph F2["🔵 BUILD & SHIP — In Progress"]
+    subgraph F2["🔥 LEARNING NOW"]
         direction LR
-        C["CI/CD Pipelines<br/>Actions · Jenkins"] --- D["Docker<br/>Containers"]
+        D["☁️ AWS<br/>EC2 · S3 · IAM · VPC"]
     end
-    subgraph F3["🟣 SCALE & AUTOMATE — Learning"]
+    subgraph F3["🎯 UP NEXT"]
         direction LR
-        E["Kubernetes<br/>Helm"] --- G["Terraform<br/>Ansible"]
+        E["CI/CD<br/>Actions · Jenkins"] --- F["Kubernetes<br/>Helm"] --- G["Terraform<br/>Ansible"]
     end
-    subgraph F4["🟠 OPERATE — Next Up"]
+    subgraph F4["📚 PLANNED"]
         direction LR
-        H["Prometheus<br/>Grafana"] --- I["AWS · Azure · GCP"] --- J["DevSecOps"]
+        H["Prometheus<br/>Grafana"] --- I["Azure · GCP"] --- J["DevSecOps"]
     end
     F1 ==> F2 ==> F3 ==> F4
 
     style F1 fill:#0d2818,stroke:#2ea043,stroke-width:2px,color:#e6edf3
-    style F2 fill:#0c2d48,stroke:#1f6feb,stroke-width:2px,color:#e6edf3
-    style F3 fill:#271052,stroke:#8957e5,stroke-width:2px,color:#e6edf3
-    style F4 fill:#341a00,stroke:#e3820e,stroke-width:2px,color:#e6edf3
+    style F2 fill:#341a00,stroke:#ff9900,stroke-width:3px,color:#e6edf3
+    style F3 fill:#0c2d48,stroke:#1f6feb,stroke-width:2px,color:#e6edf3
+    style F4 fill:#271052,stroke:#8957e5,stroke-width:2px,color:#e6edf3
     style A fill:#161b22,stroke:#2ea043,color:#e6edf3
     style B fill:#161b22,stroke:#2ea043,color:#e6edf3
-    style C fill:#161b22,stroke:#1f6feb,color:#e6edf3
-    style D fill:#161b22,stroke:#1f6feb,color:#e6edf3
-    style E fill:#161b22,stroke:#8957e5,color:#e6edf3
-    style G fill:#161b22,stroke:#8957e5,color:#e6edf3
-    style H fill:#161b22,stroke:#e3820e,color:#e6edf3
-    style I fill:#161b22,stroke:#e3820e,color:#e6edf3
-    style J fill:#161b22,stroke:#e3820e,color:#e6edf3
+    style C fill:#161b22,stroke:#2ea043,color:#e6edf3
+    style D fill:#161b22,stroke:#ff9900,stroke-width:2px,color:#e6edf3
+    style E fill:#161b22,stroke:#1f6feb,color:#e6edf3
+    style F fill:#161b22,stroke:#1f6feb,color:#e6edf3
+    style G fill:#161b22,stroke:#1f6feb,color:#e6edf3
+    style H fill:#161b22,stroke:#8957e5,color:#e6edf3
+    style I fill:#161b22,stroke:#8957e5,color:#e6edf3
+    style J fill:#161b22,stroke:#8957e5,color:#e6edf3
 ```
 
 <details>
@@ -245,14 +255,7 @@ flowchart TB
 
 > 🎯 Shell Scripting • Permissions • Cron Jobs • Process Management • Networking Commands
 
-### ⚙️ Stage 3 — CI/CD Pipelines 🔄
-<div align="center">
-<img src="https://skillicons.dev/icons?i=githubactions,gitlab,jenkins&theme=light" />
-</div>
-
-> 🎯 Automated Builds • Testing Automation • Continuous Deployment • Pipeline as Code • Artifacts
-
-### 🐳 Stage 4 — Containerization 🔄
+### 🐳 Stage 3 — Containerization ✅
 <div align="center">
 <img src="https://skillicons.dev/icons?i=docker&theme=light" />
 <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
@@ -261,7 +264,25 @@ flowchart TB
 
 > 🎯 Dockerfiles • Images & Layers • Multi-Stage Builds • Networks & Volumes • Registries
 
-### ☸️ Stage 5 — Container Orchestration 📚
+### ☁️ Stage 4 — Cloud: AWS 🔥 Learning NOW
+<div align="center">
+<img src="https://skillicons.dev/icons?i=aws&theme=light" />
+<img src="https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"/>
+<img src="https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white"/>
+<img src="https://img.shields.io/badge/IAM-DD344C?style=for-the-badge&logo=amazoniam&logoColor=white"/>
+<img src="https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white"/>
+</div>
+
+> 🎯 EC2 Instances • S3 Storage • IAM Security • VPC & Networking • Lambda Serverless • RDS
+
+### ⚙️ Stage 5 — CI/CD Pipelines 🎯
+<div align="center">
+<img src="https://skillicons.dev/icons?i=githubactions,gitlab,jenkins&theme=light" />
+</div>
+
+> 🎯 Automated Builds • Testing Automation • Continuous Deployment • Pipeline as Code • Artifacts
+
+### ☸️ Stage 6 — Container Orchestration 📚
 <div align="center">
 <img src="https://skillicons.dev/icons?i=kubernetes&theme=light" />
 <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white"/>
@@ -270,7 +291,7 @@ flowchart TB
 
 > 🎯 Pods & Deployments • Services & Ingress • ConfigMaps & Secrets • Auto-Scaling • Helm Charts
 
-### 🏗️ Stage 6 — Infrastructure as Code 📚
+### 🏗️ Stage 7 — Infrastructure as Code 📚
 <div align="center">
 <img src="https://skillicons.dev/icons?i=terraform,ansible&theme=light" />
 <img src="https://img.shields.io/badge/Vagrant-1868F2?style=for-the-badge&logo=vagrant&logoColor=white"/>
@@ -278,21 +299,14 @@ flowchart TB
 
 > 🎯 Terraform Modules & State • Ansible Playbooks & Roles • Provisioning • Config Management
 
-### 📊 Stage 7 — Monitoring & Observability 🎯
+### 📊 Stage 8 — Monitoring & Observability 📚
 <div align="center">
 <img src="https://skillicons.dev/icons?i=prometheus,grafana,elasticsearch&theme=light" />
 </div>
 
 > 🎯 Metrics & Alerting • Dashboards • Log Aggregation (ELK) • Tracing • Incident Response
 
-### ☁️ Stage 8 — Cloud Platforms 🎯
-<div align="center">
-<img src="https://skillicons.dev/icons?i=aws,azure,gcp&theme=light" />
-</div>
-
-> 🎯 EC2/VMs • S3/Blob Storage • VPC & Networking • IAM Security • Serverless Functions
-
-### 🔐 Stage 9 — DevSecOps & Security 🎯
+### 🔐 Stage 9 — DevSecOps & Security 📚
 <div align="center">
 <img src="https://img.shields.io/badge/HashiCorp_Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black"/>
 <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white"/>
@@ -326,42 +340,32 @@ flowchart TB
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
- 
-
 <!-- ═══════════════ 6. GITHUB STATS ═══════════════ -->
 ## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="40px"> GitHub Analytics
 
 <div align="center">
 
-<!-- GitHub Stats Cards (Always works - uses different service) -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sahil31312&theme=github_dark" width="100%" alt="GitHub Profile Details"/>
 
 <br/><br/>
 
-<!-- Stats Cards Row -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sahil31312&theme=github_dark" width="32%" alt="Stats"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Sahil31312&theme=github_dark&utcOffset=5" width="32%" alt="Productive Time"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sahil31312&theme=github_dark" width="32%" alt="Top Languages"/>
 
 <br/><br/>
 
-<!-- GitHub Streak (Alternative service) -->
 <img src="https://streak-stats.demolab.com?user=Sahil31312&theme=dark&hide_border=true&background=0D1117&fire=00D9FF&ring=00D9FF&currStreakLabel=00D9FF" width="49%" alt="GitHub Streak"/>
 
 <br/><br/>
 
-<!-- Activity Graph (Alternative) -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sahil31312&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=F75C7E&point=FFFFFF" width="95%" alt="Activity Graph"/>
 
 <br/><br/>
 
-
-<!-- Metrics with achievements plugin -->
 <img src="https://metrics.lecoq.io/Sahil31312?template=classic&base.indepth=false&base.hireable=false&achievements=true&achievements.threshold=C&achievements.ignored=publicity%2Csponsorship&achievements.limit=0" width="95%" alt="GitHub Achievements"/>
+
 <br/><br/>
-
-
-
 
 <!-- Snake Animation -->
 <img src="https://raw.githubusercontent.com/Sahil31312/Sahil31312/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Snake Animation"/>
@@ -373,44 +377,36 @@ flowchart TB
 </div>
 
 <!-- ═══════════════ 7. CONTACT ═══════════════ -->
-<!-- ═══════════════ 7. CONTACT ═══════════════ -->
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35px"> Connect With Me
 
 <div align="center">
 
-<!-- Professional Social Links -->
 <a href="https://www.linkedin.com/in/khairullah-ibrahimkhail-581030202">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
-
 <a href="https://sahil-ali.xo.je/?i=1">
   <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 &nbsp;
-
 <a href="mailto:ibrahimkhil975@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 &nbsp;
-
 <a href="https://wa.me/93788770458">
   <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
 </a>
 &nbsp;
-
 <a href="https://github.com/Sahil31312">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 &nbsp;
-
 <a href="tel:+93788770458">
   <img src="https://img.shields.io/badge/Call_Me-4285F4?style=for-the-badge&logo=googlevoice&logoColor=white"/>
 </a>
 
 <br/><br/>
 
-<!-- Professional Footer -->
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=00FF88&center=true&vCenter=true&width=600&lines=📫+Reach+out+for+collaboration!;💬+Let's+connect+and+build+together!;🌟+Open+to+opportunities+%26+ideas!" alt="Footer Typing"/>
 
 <br/>
@@ -419,7 +415,6 @@ flowchart TB
 
 <br/><br/>
 
-<!-- Portfolio Link Button -->
 <a href="https://sahil-ali.xo.je/?i=1">
   <img src="https://img.shields.io/badge/🌐-Visit_My_Portfolio-00D9FF?style=for-the-badge"/>
 </a>
